@@ -1,0 +1,1909 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+  <meta name="mobile-agent" content="format=html5; url=http://m.zzjjw.cn" /> 
+  <meta name="mobile-agent" content="format=xhtml; url=http://m.zzjjw.cn" /> 
+  <title>
+      住在九江网_九江房地产家居网站
+    </title> 
+  <meta name="keywords" content="九江房地产信息网,九江新楼盘,九江房地产,九江房产,九江二手房,九江房价,九江信息港,九江装修,九江家居" /> 
+  <meta name="description" content="又名《九江房产网》,是九江本地专业的房地产家居网站。提供九江房价、九江楼盘、九江房地产信息,九江家装建材等地产和家居类信息服务，以及九江二手房、九江租赁房的房源发布与浏览。" /> 
+  <link rel="stylesheet" href="css/css_2018/style.css" /> 
+  <link rel="stylesheet" href="css/css_2018/swiper.min.css" /> 
+  <link rel="stylesheet" href="css/fontawesome/css/all.min.css" /> 
+  <link rel="stylesheet" href="http://cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" /> 
+  <script src="scripts/jquery-1.8.3.min.js">
+    </script> 
+  <script src="scripts/swiper.min.js">
+    </script> 
+  <script src="scripts/jquery.SuperSlide.js">
+    </script> 
+  <script src="scripts/template.js">
+    </script> 
+  <script src="scripts/2018/common.js">
+    </script> 
+  <script src="scripts/echarts.min.js">
+    </script> 
+  <script src="scripts/lodash.min.js">
+    </script> 
+  <script type="text/javascript">
+      $(function() {
+        AD_opt = [{
+          'background': '/images/advimg/bt_lfxljyjs_20190601.jpg',
+          'href': 'http://www.zzjjw.cn/lfxljyjs/index.html'
+        },
+        {
+          'background': '/images/advimg/bt_xnyd_20190605.jpg',
+          'href': 'http://www.zzjjw.cn/xnyd/index.html'
+        },
+        {
+          'background': '/images/advimg/bt_zhgj_20190605.jpg',
+          'href': 'http://www.zzjjw.cn/zhgj/index.html'
+        }];
+
+        if (undefined != AD_opt) {
+          //setAD_BG(AD_opt);
+        } else {
+          var html = '<div class="swiper-slide" style="background-image:url(/images/2018/bg201805.jpg)"></div>'$("#banner-swiper").html(html)
+        }
+        var swiper = new Swiper('#cityBanner', {
+          pagination: '.swiper-pagination',
+          paginationClickable: '.swiper-pagination',
+          nextButton: '.swiper-button-next',
+          prevButton: '.swiper-button-prev',
+          spaceBetween: 30,
+          effect: 'fade',
+          autoplay: 3000,
+          loop: true,
+          autoplayDisableOnInteraction: false
+        });
+        $("#cityBanner").mouseenter(function() {
+          swiper.stopAutoplay();
+        }).mouseleave(function() {
+          swiper.startAutoplay();
+        });
+        var MobileUA = (function() {
+          var ua = navigator.userAgent.toLowerCase();
+          var mua = {
+            IOS: /ipod|iphone|ipad/.test(ua),
+            //iOS  
+            IPHONE: /iphone/.test(ua),
+            //iPhone  
+            IPAD: /ipad/.test(ua),
+            //iPad  
+            ANDROID: /android/.test(ua),
+            //Android Device  
+            WINDOWS: /windows/.test(ua),
+            //Windows Device  
+            TOUCH_DEVICE: ('ontouchstart' in window) || /touch/.test(ua),
+            //Touch Device  
+            MOBILE: /mobile/.test(ua),
+            //Mobile Device (iPad)  
+            ANDROID_TABLET: false,
+            //Android Tablet  
+            WINDOWS_TABLET: false,
+            //Windows Tablet  
+            TABLET: false,
+            //Tablet (iPad, Android, Windows)  
+            SMART_PHONE: false //Smart Phone (iPhone, Android)  
+          };
+          mua.ANDROID_TABLET = mua.ANDROID && !mua.MOBILE;
+          mua.WINDOWS_TABLET = mua.WINDOWS && /tablet/.test(ua);
+          mua.TABLET = mua.IPAD || mua.ANDROID_TABLET || mua.WINDOWS_TABLET;
+          mua.SMART_PHONE = mua.MOBILE && !mua.TABLET;
+          return mua;
+        } ());
+        if (MobileUA.SMART_PHONE) {
+          document.location.href = 'http://m.zzjjw.cn';
+        }
+      })
+    </script> 
+ </head> 
+ <body> 
+  <!--头部开始--> 
+  <div class="head-wrap"> 
+   <div class="module-header module-header-common"> 
+    <div class="header-wrap clearfix"> 
+     <div class="header-left"> 
+     </div> 
+     <div class="header-right"> 
+      <a href="" class="btn btn-open-wx" target="_blank"> <span class="icon2018">  </span> <span class="txt"> 小程序 </span> 
+       <div class="wxapp-hover" style="left: -80px; top: 11px; display: none;"> 
+        <img class="bg" src="/image/wx_bg.png" /> 
+        <div class="hover-content"> 
+         <img class="hover-contet_img" src="https://t.focus-img.cn/wx/acode/a452-a9b2-2170-d709-6398-cba5-2500-d876.jpg" /> 
+         <p> 小程序 </p> 
+        </div> 
+       </div> </a> 
+      <a href="" class="btn btn-open-platform" target="_blank"> <span class="icon">  </span> <span class="txt"> 公众号 </span> 
+       <div class="wxapp-hover" style="left: -80px; top: 11px; display: none;"> 
+        <img class="bg" src="image/wx_bg.png" /> 
+        <div class="hover-content"> 
+         <img class="hover-contet_img" src="https://t.focus-img.cn/wx/acode/a452-a9b2-2170-d709-6398-cba5-2500-d876.jpg" /> 
+         <p> 微信公众号 </p> 
+        </div> 
+       </div> </a> 
+      <span class="unlog-wrap" style="display:inline-block"> <a href="http://esf.zzjjw.cn/Login/index.html" class="btn btn-open-login"> <span class="icon">  </span> <span class="txt"> 登录 </span> </a> <span class="divide-line"> | </span> <a href="http://esf.zzjjw.cn/Register/index" target="_blank" class="btn btn-open-signup"> <span class="icon"> </span> <span class="txt"> 注册 </span> </a> <span class="divide-line"> | </span> <a href="http://www.zzjjw.cn/manage.action" target="_blank" class="btn btn-open-signup"> <span class="icon"> </span> <span class="txt"> 撰稿人登录 </span> </a> </span> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <!--头部结束--> 
+  <!--头部菜单开始--> 
+  <div class="module-header-nav"> 
+   <div class="city-header-wrap global-clearfix"> 
+    <div class="city-header-left"> 
+     <a href="http://www.zzjjw.cn/" class="logo"> <img src="image/com_logo2.png" /> </a> 
+    </div> 
+    <div class="header-nav"> 
+     <ul class="nav-header-wrap"> 
+      <li class="cur"> <a href="http://www.zzjjw.cn/"> 首页 </a> </li> 
+      <li> <a href="http://www.zzjjw.cn/news/"> 资讯 </a> 
+       <div class="second-level-container"> 
+        <a href="http://www.zzjjw.cn/news/" target="_blank" class="second-level-link"> 
+         <div class="second-level-info">
+           九江新闻 
+         </div> </a> 
+        <a href="http://www.zzjjw.cn/news/list-33.html" target="_blank" class="second-level-link"> 
+         <div class="second-level-info">
+           专题报道 
+         </div> </a> 
+        <a href="http://www.zzjjw.cn/news/list-4.html" target="_blank" class="second-level-link"> 
+         <div class="second-level-info">
+           各地新闻 
+         </div> </a> 
+        <a href="http://www.zzjjw.cn/news/list-3.html" target="_blank" class="second-level-link"> 
+         <div class="second-level-info">
+           九江楼市 
+         </div> </a> 
+       </div> </li> 
+      <li> <a href="http://www.zzjjw.cn/newhouse/"> 新楼盘 </a> 
+       <div class="second-level-container"> 
+        <a href="http://www.zzjjw.cn/fangjia/" target="_blank" class="second-level-link"> 
+         <div class="second-level-info">
+           销售行情 
+         </div> </a> 
+        <a href="http://www.zzjjw.cn/news/list-19.html" target="_blank" class="second-level-link"> 
+         <div class="second-level-info">
+           楼盘动态 
+         </div> </a> 
+        <a href="http://www.zzjjw.cn/business/buildingList.action?area=0&amp;wuye=住宅" target="_blank" class="second-level-link"> 
+         <div class="second-level-info">
+           住宅 
+         </div> </a> 
+        <a href="http://www.zzjjw.cn/business/buildingList.action?area=0&amp;wuye=商铺" target="_blank" class="second-level-link"> 
+         <div class="second-level-info">
+           商铺 
+         </div> </a> 
+        <a href="http://mall.zzjjw.cn" target="_blank" class="second-level-link"> 
+         <div class="second-level-info">
+           住九电商 
+         </div> </a> 
+        <a href="http://www.zzjjw.cn/news/picinfo-61.html" target="_blank" class="second-level-link"> 
+         <div class="second-level-info">
+           楼盘图集 
+         </div> </a> 
+       </div> </li> 
+      <li> <a href="http://esf.zzjjw.cn"> 二手房 </a> 
+       <div class="second-level-container"> 
+        <a href="http://esf.zzjjw.cn/Index/search.html" target="_blank" class="second-level-link"> 
+         <div class="second-level-info">
+           出售房源 
+         </div> </a> 
+        <a href="http://esf.zzjjw.cn/Public/error.html" target="_blank" class="second-level-link"> 
+         <div class="second-level-info">
+           中介名录 
+         </div> </a> 
+       </div> </li> 
+      <li> <a href="http://esf.zzjjw.cn/Site/rent_search"> 租赁房 </a> 
+       <div class="second-level-container"> 
+        <a href="http://esf.zzjjw.cn/Site/community_search" target="_blank" class="second-level-link"> 
+         <div class="second-level-info">
+           小区找房 
+         </div> </a> 
+        <a href="http://esf.zzjjw.cn/Site/school_search" target="_blank" class="second-level-link"> 
+         <div class="second-level-info">
+           学区找房 
+         </div> </a> 
+       </div> </li> 
+      <li> <a href="http://mall.zzjjw.cn"> 住九电商 </a> </li> 
+     </ul> 
+    </div> 
+   </div> 
+  </div> 
+  <!--头部菜单结束--> 
+  <!--轮播开始--> 
+  <div class="module-header-banner" id="cityBanner"> 
+   <div id="banner-swiper" class="swiper-wrapper"> 
+    <div class="swiper-slide" style="background-image:url('http://www.zzjjw.cn/images/advimg/bt_zhgj_20190605.jpg')"> 
+     <a href="http://www.zzjjw.cn/zhgj/index.html"> </a> 
+    </div> 
+   </div> 
+   <div class="swiper-pagination swiper-pagination-white"> 
+   </div> 
+   <div class="swiper-button-next"> 
+   </div> 
+   <div class="swiper-button-prev"> 
+   </div> 
+  </div> 
+  <!--轮播结束--> 
+  <!--快捷搜索开始--> 
+  <div class="module-header-search"> 
+   <div class="city-header-right global-clearfix"> 
+    <div class="city-header-left"> 
+     <a href="http://www.zzjjw.cn" class="logo"> <img src="image/com_logo2.png" /> </a> 
+    </div> 
+    <div class="search-area global-clearfix"> 
+     <div class="search-tag"> 
+      <span id="search-tag-xlp" data-url="/business/buildingList.action" data-ph="中辉国际,九江印,君悦江山,滨江凯旋城" data-index="1" class="tag new-house cur" node-type="top-tag"> <span class="text"> 新楼盘 </span> </span> 
+      <span data-ph="请输入关键词" data-url="http://esf.zzjjw.cn/Index/search.html" data-index="2" class="tag second-hand" node-type="top-tag"> <span class="text"> 二手房 </span> </span> 
+      <span data-ph="请输入关键词" data-url="http://esf.zzjjw.cn/Rent/rentSearch.html" data-index="3" class="tag rent" node-type="top-tag"> <span class="text"> 租赁房 </span> </span> 
+      <span data-ph="请输入关键词" data-url="http://www.zzjjw.cn/news/search.action" data-index="4" class="tag home" node-type="top-tag"> <span class="text"> 资讯 </span> </span> 
+     </div> 
+     <div class="search-line"> 
+      <span class="line" node-type="search-line" style="left: 44px;"> </span> 
+     </div> 
+     <div class="search-input-area"> 
+      <div class="input-all-area"> 
+       <form method="get" action="http://www.zzjjw.cn/business/buildingList.action" id="topSearch" index="1"> 
+        <input name="keyword" type="text" id="keyword" class="input-search" data-value="搜索楼盘名称、楼盘位置、开发商..." placeholder="搜索楼盘名称、楼盘位置、开发商..." /> 
+        <div class="sub_building" style="height: 150px; display: none;"> 
+         <a id="378"> 中辉国际 </a> 
+         <a id="420"> 中基学府 </a> 
+         <a id="382"> 中奥&middot;天悦湾 </a> 
+         <a id="263"> 天禧国际商业中心 </a> 
+         <a id="183"> 保利&middot;中航城 </a> 
+         <a id="329"> 九江中奥广场 </a> 
+         <a id="362"> 中梁首府 </a> 
+         <a id="167"> 中辉&middot;世纪城 </a> 
+         <a id="441"> 南水中央公园 </a> 
+         <a id="449"> 九江中骏雍景湾 </a> 
+         <a id="142"> 中体&middot;奥林匹克花园 </a> 
+        </div> 
+       </form> 
+      </div> 
+     </div> 
+     <a id="submit-btn" href="javascript:;" class="btn-search global-clearfix" node-type="search-button" target=""> <i class="fa fa-search"> </i> 搜索 </a> 
+    </div> 
+    <a href="http://www.zzjjw.cn/map/lp/" target="_blank" class="btn-mapfindfang"> <i class="fa fa-map"> </i> 地图找房 </a> 
+    <div class="hot-search"> 
+     <span class="title"> 热搜楼盘: </span> 
+     <a href="http://www.zzjjw.cn/business/buildingList.action?keyword=中辉国际" target="_blank"> 融创&middot;美伦熙语 </a> 
+     <a href="http://www.zzjjw.cn/business/buildingList.action?keyword=中辉国际" target="_blank"> 富力悦海湾 </a> 
+     <a href="http://www.zzjjw.cn/business/buildingList.action?keyword=中辉国际" target="_blank"> 北辰府 </a> 
+     <a href="http://www.zzjjw.cn/business/buildingList.action?keyword=中辉国际" target="_blank"> 融创无忌海 </a> 
+     <a href="http://www.zzjjw.cn/business/buildingList.action?keyword=中辉国际" target="_blank"> 恒大御海天下 </a> 
+    </div> 
+   </div> 
+  </div> 
+  <!--快捷搜索结束--> 
+  <!--热搜开始--> 
+  <div class="module-header-links"> 
+   <div class="links-content"> 
+    <div class="hot link-area"> 
+     <div class="title"> 
+      <span class="icon hot-icon"> <img src="/image/hot.png" alt="" /> </span> 
+      <span class="text"> 热搜区域 </span> 
+     </div> 
+     <div class="links"> 
+      <a target="_blank" href="http://www.zzjjw.cn/business/buildingList.action?area=1&amp;wuye=&amp;priceLevel=0.0" class="text-link"> 浔阳区 </a> 
+      <a target="_blank" href="http://www.zzjjw.cn/business/buildingList.action?area=2&amp;wuye=&amp;priceLevel=0.0" class="text-link"> 开发区 </a> 
+      <a target="_blank" href="http://www.zzjjw.cn/business/buildingList.action?area=3&amp;wuye=&amp;priceLevel=0.0" class="text-link"> 濂溪区 </a> 
+      <a target="_blank" href="http://www.zzjjw.cn/business/buildingList.action?area=17&amp;wuye=&amp;priceLevel=0.0" class="text-link"> 八里湖新区 </a> 
+      <a target="_blank" href="http://www.zzjjw.cn/business/buildingList.action?area=8&amp;wuye=&amp;priceLevel=0.0" class="text-link"> 柴桑区 </a> 
+      <a target="_blank" href="http://www.zzjjw.cn/business/buildingList.action?area=4&amp;wuye=&amp;priceLevel=0.0" class="text-link"> 德安县 </a> 
+      <a target="_blank" href="http://www.zzjjw.cn/business/buildingList.action?area=5&amp;wuye=&amp;priceLevel=0.0" class="text-link"> 都昌县 </a> 
+      <a target="_blank" href="http://www.zzjjw.cn/business/buildingList.action?area=6&amp;wuye=&amp;priceLevel=0.0" class="text-link"> 共青城 </a> 
+     </div> 
+    </div> 
+    <div class="price link-area"> 
+     <div class="title"> 
+      <span class="icon price-icon"> <img src="image/price.png" alt="" /> </span> 
+      <span class="text"> 价格区间 </span> 
+     </div> 
+     <div class="links"> 
+      <a target="_blank" href="http://www.zzjjw.cn/business/buildingList.action?priceLevel=3000" class="text-link"> 3000元左右 </a> 
+      <a target="_blank" href="hhttp://www.zzjjw.cn/business/buildingList.action?priceLevel=4000" class="text-link"> 4000元左右 </a> 
+      <a target="_blank" href="http://www.zzjjw.cn/business/buildingList.action?priceLevel=5000" class="text-link"> 5000元左右 </a> 
+      <a target="_blank" href="http://www.zzjjw.cn/business/buildingList.action?priceLevel=6000" class="text-link"> 6000元左右 </a> 
+      <a target="_blank" href="http://www.zzjjw.cn/business/buildingList.action?priceLevel=7000" class="text-link"> 7000元左右 </a> 
+     </div> 
+    </div> 
+    <div class="area link-area"> 
+     <div class="title"> 
+      <span class="icon area-icon"> <img src="image/area.png" alt="" /> </span> 
+      <span class="text"> 物业类型 </span> 
+     </div> 
+     <div class="links"> 
+      <a target="_blank" href="http://www.zzjjw.cn/business/buildingList.action?wuye=住宅" class="text-link"> 住宅 </a> 
+      <a target="_blank" href="http://www.zzjjw.cn/business/buildingList.action?wuye=写字楼" class="text-link"> 写字楼 </a> 
+      <a target="_blank" href="http://www.zzjjw.cn/business/buildingList.action?wuye=商住楼" class="text-link"> 商住楼 </a> 
+      <a target="_blank" href="http://www.zzjjw.cn/business/buildingList.action?wuye=商铺" class="text-link"> 商铺 </a> 
+      <a target="_blank" href="http://www.zzjjw.cn/business/buildingList.action?wuye=别墅" class="text-link"> 别墅 </a> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <!--热搜结束--> 
+  <!--新闻资讯开始--> 
+  <div class="module-focus-toutiao"> 
+   <div class="title-area"> 
+    <div class="title-text">
+      新闻资讯 
+    </div> 
+    <div class="news-tags"> 
+     <a href="//hn.focus.cn/zixun/shichang/" target="_blank"> <span class="tag"> <span class="icon">  </span> <span class="text"> 资讯首页 </span> </span> </a> 
+     <a href="//hn.focus.cn/zixun/tudi/" target="_blank"> <span class="tag"> <span class="icon">  </span> <span class="text"> 九江楼市 </span> </span> </a> 
+     <a href="//hn.focus.cn/zixun/zhengce/" target="_blank"> <span class="tag"> <span class="icon">  </span> <span class="text"> 楼盘动态 </span> </span> </a> 
+     <a href="//hn.focus.cn/zixun/zhengce/" target="_blank"> <span class="tag"> <span class="icon">  </span> <span class="text"> 二手房资讯 </span> </span> </a> 
+    </div> 
+   </div> 
+   <div class="info-block"> 
+    <!--左侧图文块开始--> 
+    <div class="img-block"> 
+     <div class="big-img"> 
+      <a href="http://www.zzjjw.cn/news/show-108726.html" target="_blank" data-operationid="9"> <img src="http://img.zzjjw.cn/19/06/17/1906171015597147965.png" alt="" class="img" /> 
+       <div class="img-text">
+         某小区近20套房源集中拍卖，法拍房的水有点深？ 
+       </div> </a> 
+     </div> 
+     <div class="img-line"> 
+      <div class="small-img"> 
+       <a href="https://hn.focus.cn/loupan/20039065.html" target="_blank" class="first"> <img src="http://img.zzjjw.cn/19/06/17/1906171015597147965.png" alt="" class="img" /> </a> 
+       <a href="https://hn.focus.cn/loupan/20039065.html" target="_blank"> 
+        <div class="img-text">
+          某小区近20套房源集中拍卖，法拍房的水有点深？ 
+        </div> </a> 
+      </div> 
+      <div class="small-img right"> 
+       <a href="http://www.zzjjw.cn/news/show-108726.html" target="_blank" class="first"> <img src="http://img.zzjjw.cn/19/06/17/1906171015597147965.png" alt="" class="img" /> </a> 
+       <a href="http://www.zzjjw.cn/news/show-108726.html" target="_blank"> 
+        <div class="img-text">
+          北辰府“星体验”全方位呵护每位业主生活。 
+        </div> </a> 
+      </div> 
+     </div> 
+     <div class="img-line"> 
+      <div class="small-img"> 
+       <a href="https://hn.focus.cn/loupan/20039065.html" target="_blank" class="first"> <img src="http://img.zzjjw.cn/19/06/17/1906171015597147965.png" alt="" class="img" /> </a> 
+       <a href="https://hn.focus.cn/loupan/20039065.html" target="_blank"> 
+        <div class="img-text">
+          某小区近20套房源集中拍卖，法拍房的水有点深？ 
+        </div> </a> 
+      </div> 
+      <div class="small-img right"> 
+       <a href="http://www.zzjjw.cn/news/show-108726.html" target="_blank" class="first"> <img src="http://img.zzjjw.cn/19/06/17/1906171015597147965.png" alt="" class="img" /> </a> 
+       <a href="http://www.zzjjw.cn/news/show-108726.html" target="_blank"> 
+        <div class="img-text">
+          北辰府“星体验”全方位呵护每位业主生活。 
+        </div> </a> 
+      </div> 
+     </div> 
+    </div> 
+    <!--左侧图文块结束--> 
+    <!--中部文字块开始--> 
+    <div class="text-block"> 
+     <div class="top-block"> 
+      <h2 class="nowrap"> <a href="http://www.zzjjw.cn/news/show-108725.html"> 九江公寓大盘点，最低约16万一套！ </a> </h2> 
+      <p> <a href="http://www.zzjjw.cn/news/show-108725.html"> 公寓，凭借着总价低、面积小且实用的特点逐渐在房产市场上脱颖而出，之前小编对公寓还没有什么特别感觉，但是最近通过在群里和大家的交流却发现现在关注公寓的人群越来越多。 </a> </p> 
+     </div> 
+     <div class="roll-news"> 
+      <img src="image/img6.png" /> 
+      <div class="slide"> 
+       <div class="bd"> 
+        <ul class="info-list"> 
+         <li> <a class="nowrap" href="http://www.zzjjw.cn/news/show-108726.html" target="_blank"> 某小区近20套房源集中拍卖，法拍房的水有点深？ </a> </li> 
+         <li> <a class="nowrap" href="http://www.zzjjw.cn/news/show-108726.html" target="_blank"> 某小区近20套房源集中拍卖，法拍房的水有点深？ </a> </li> 
+         <li> <a class="nowrap" href="http://www.zzjjw.cn/news/show-108726.html" target="_blank"> 某小区近20套房源集中拍卖，法拍房的水有点深？ </a> </li> 
+         <li> <a class="nowrap" href="http://www.zzjjw.cn/news/show-108726.html" target="_blank"> XXXXXXXX </a> </li> 
+        </ul> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="text-6"> 
+      <div class="title"> 
+       <a href="http://www.zzjjw.cn/news/show-108755.html" target="_blank"> <span class="point"> </span> <span class="text"> 商品房销售额增速今年来首次放缓,业内:“小阳春退烧” </span> </a> 
+      </div> 
+      <div class="text-info"> 
+       <a href="http://www.zzjjw.cn/news/show-108755.html" target="_blank"> <span class="point"> </span> <span class="text"> 瑞昌奥园广场品牌发布会暨招商大会盛大举行 <span class="news-tag"> 楼盘 </span> </span> </a> 
+      </div> 
+      <div class="text-info"> 
+       <a href="http://www.zzjjw.cn/news/show-108755.html" target="_blank"> <span class="point"> </span> <span style="color: red" class="text"> 瑞昌奥园广场品牌发布会暨招商大会盛大举行 <span class="news-tag"> 楼盘 </span> </span> </a> 
+      </div> 
+      <div class="text-info"> 
+       <a href="http://www.zzjjw.cn/news/show-108755.html" target="_blank"> <span class="point"> </span> <span style="color: red" class="text"> 瑞昌奥园广场品牌发布会暨招商大会盛大举行 <span class="news-tag"> 楼盘 </span> </span> </a> 
+      </div> 
+      <div class="text-info"> 
+       <a href="http://www.zzjjw.cn/news/show-108755.html" target="_blank"> <span class="point"> </span> <span style="color: red" class="text"> 瑞昌奥园广场品牌发布会暨招商大会盛大举行 <span class="news-tag"> 楼盘 </span> </span> </a> 
+      </div> 
+      <div class="text-info"> 
+       <a href="http://www.zzjjw.cn/news/show-108755.html" target="_blank"> <span class="point"> </span> <span style="color: red" class="text"> 瑞昌奥园广场品牌发布会暨招商大会盛大举行 <span class="news-tag"> 楼盘 </span> </span> </a> 
+      </div> 
+      <div class="text-info"> 
+       <a href="http://www.zzjjw.cn/news/show-108755.html" target="_blank"> <span class="point"> </span> <span style="color: red" class="text"> 瑞昌奥园广场品牌发布会暨招商大会盛大举行 <span class="news-tag"> 楼盘 </span> </span> </a> 
+      </div> 
+     </div> 
+     <div class="text-4"> 
+      <div class="title"> 
+       <a href="http://www.zzjjw.cn/news/show-108755.html" target="_blank"> <span class="point"> </span> <span class="text"> 商品房销售额增速今年来首次放缓,业内:“小阳春退烧” </span> </a> 
+      </div> 
+      <div class="text-info"> 
+       <a href="http://www.zzjjw.cn/news/show-108755.html" target="_blank"> <span class="point"> </span> <span style="color: red" class="text"> 瑞昌奥园广场品牌发布会暨招商大会盛大举行 <span class="news-tag"> 楼盘 </span> </span> </a> 
+      </div> 
+      <div class="text-info"> 
+       <a href="http://www.zzjjw.cn/news/show-108755.html" target="_blank"> <span class="point"> </span> <span style="color: red" class="text"> 瑞昌奥园广场品牌发布会暨招商大会盛大举行 <span class="news-tag"> 楼盘 </span> </span> </a> 
+      </div> 
+      <div class="text-info"> 
+       <a href="http://www.zzjjw.cn/news/show-108755.html" target="_blank"> <span class="point"> </span> <span style="color: red" class="text"> 瑞昌奥园广场品牌发布会暨招商大会盛大举行 <span class="news-tag"> 楼盘 </span> </span> </a> 
+      </div> 
+      <div class="text-info"> 
+       <a href="http://www.zzjjw.cn/news/show-108755.html" target="_blank"> <span class="point"> </span> <span style="color: red" class="text"> 瑞昌奥园广场品牌发布会暨招商大会盛大举行 <span class="news-tag"> 楼盘 </span> </span> </a> 
+      </div> 
+     </div> 
+    </div> 
+    <!--中部文字块结束--> 
+    <!--右侧图文块开始--> 
+    <div class="news-block"> 
+     <div class="news-select"> 
+      <div class="title"> 
+       <span class="red-bar"> </span> 
+       <span class="title-text"> 各地新闻 </span> 
+      </div> 
+      <div class="news-all"> 
+       <div class="news-title"> 
+        <a href="http://www.zzjjw.cn/news/show-108762.html" target="_blank"> <span class="point"> </span> <span class="text"> 石家庄主城区棚户区征收改造新政出台 </span> </a> 
+       </div> 
+       <div class="news-detail"> 
+        <a href="http://www.zzjjw.cn/news/show-108762.html" target="_blank" data-operationid="6"> <img src="https://t3.focus-img.cn/sh80x60sh/focus-op/prod/9b983091f448ede63b29338d86c6547d.jpg" alt="" /> </a> 
+        <a href="http://www.zzjjw.cn/news/show-108762.html" target="_blank" data-operationid="6"> <span class="text"> 6月13日，石家庄市人民政府官网发布《关于加强主城区城市棚户区征收改造工作的意见》的通知（下简称《意见》）。《意见》从加强棚户区改造规划和土地供应、多渠道筹措资金、鼓励就近异地安置和明确属地政府和相关部门责任四大方面做了详细规定。 </span> </a> 
+       </div> 
+      </div> 
+      <div class="news-all"> 
+       <div class="news-title"> 
+        <a href="http://www.zzjjw.cn/news/show-108762.html" target="_blank"> <span class="point"> </span> <span class="text"> 石家庄主城区棚户区征收改造新政出台 </span> </a> 
+       </div> 
+       <div class="news-detail"> 
+        <a href="http://www.zzjjw.cn/news/show-108762.html" target="_blank" data-operationid="6"> <img src="https://t3.focus-img.cn/sh80x60sh/focus-op/prod/9b983091f448ede63b29338d86c6547d.jpg" alt="" /> </a> 
+        <a href="http://www.zzjjw.cn/news/show-108762.html" target="_blank" data-operationid="6"> <span class="text"> 6月13日，石家庄市人民政府官网发布《关于加强主城区城市棚户区征收改造工作的意见》的通知（下简称《意见》）。《意见》从加强棚户区改造规划和土地供应、多渠道筹措资金、鼓励就近异地安置和明确属地政府和相关部门责任四大方面做了详细规定。 </span> </a> 
+       </div> 
+      </div> 
+      <div class="news-all"> 
+       <div class="news-title"> 
+        <a href="http://www.zzjjw.cn/news/show-108762.html" target="_blank"> <span class="point"> </span> <span class="text"> 石家庄主城区棚户区征收改造新政出台 </span> </a> 
+       </div> 
+       <div class="news-detail" style="display: block; overflow: hidden;"> 
+        <a href="http://www.zzjjw.cn/news/show-108762.html" target="_blank" data-operationid="6"> <img src="https://t3.focus-img.cn/sh80x60sh/focus-op/prod/9b983091f448ede63b29338d86c6547d.jpg" alt="" /> </a> 
+        <a href="http://www.zzjjw.cn/news/show-108762.html" target="_blank" data-operationid="6"> <span class="text"> 6月13日，石家庄市人民政府官网发布《关于加强主城区城市棚户区征收改造工作的意见》的通知（下简称《意见》）。《意见》从加强棚户区改造规划和土地供应、多渠道筹措资金、鼓励就近异地安置和明确属地政府和相关部门责任四大方面做了详细规定。 </span> </a> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="news-fast"> 
+      <div class="title"> 
+       <span class="red-bar"> </span> 
+       <span class="title-text"> 二手房&middot;租房 </span> 
+       <span class="more"> <a href="http://esf.zzjjw.cn/" target="_blank" data-operationid="123"> <span class="text"> 更多 </span> <span class="icon">  </span> </a> </span> 
+      </div> 
+      <div class="fast-block"> 
+       <div class="fast-line"> 
+        <span class="point"> </span> 
+        <span class="text"> <a href="http://esf.zzjjw.cn/Resource/houseDisplay/rid/14067.html" target="_blank"> 天翼景城豪装四房南北通透全屋实木家具100万售 </a> </span> 
+       </div> 
+       <div class="fast-line"> 
+        <span class="point"> </span> 
+        <span class="text"> <a href="http://esf.zzjjw.cn/Resource/houseDisplay/rid/14067.html" target="_blank"> 天翼景城豪装四房南北通透全屋实木家具100万售 </a> </span> 
+       </div> 
+       <div class="fast-line"> 
+        <span class="point"> </span> 
+        <span class="text"> <a href="http://esf.zzjjw.cn/Resource/houseDisplay/rid/14067.html" target="_blank"> 天翼景城豪装四房南北通透全屋实木家具100万售 </a> </span> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="news-fast"> 
+      <div class="title"> 
+       <span class="red-bar"> </span> 
+       <span class="title-text"> 家装资讯 </span> 
+       <span class="more"> <a href="http://www.zzjjw.cn/news/list-37.html" target="_blank" data-operationid="123"> <span class="text"> 更多 </span> <span class="icon">  </span> </a> </span> 
+      </div> 
+      <div class="fast-block"> 
+       <div class="fast-line"> 
+        <span class="point"> </span> 
+        <span class="text"> <a href="http://esf.zzjjw.cn/Resource/houseDisplay/rid/14067.html" target="_blank"> 天翼景城豪装四房南北通透全屋实木家具100万售 </a> </span> 
+       </div> 
+       <div class="fast-line"> 
+        <span class="point"> </span> 
+        <span class="text"> <a href="http://esf.zzjjw.cn/Resource/houseDisplay/rid/14067.html" target="_blank"> 天翼景城豪装四房南北通透全屋实木家具100万售 </a> </span> 
+       </div> 
+       <div class="fast-line"> 
+        <span class="point"> </span> 
+        <span class="text"> <a href="http://esf.zzjjw.cn/Resource/houseDisplay/rid/14067.html" target="_blank"> 天翼景城豪装四房南北通透全屋实木家具100万售 </a> </span> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <!--右侧图文块结束---> 
+   </div> 
+  </div> 
+  <!--新闻资讯结束--> 
+  <div class="split-bar"> 
+  </div> 
+  <!--开盘动态开始--> 
+  <div class="module-city-recommend"> 
+   <div class="dynamic-title"> 
+    <span class="bar"> </span> 
+    <span class="text"> 开盘动态 </span> 
+    <span class="bar"> </span> 
+   </div> 
+   <div class="index-page-new-house-module"> 
+    <div class="left"> 
+     <div class="module-city-new-pan"> 
+      <div class="header"> 
+       <p class="header-title"> 开盘日历 </p> 
+      </div> 
+      <div id="scrollContainer" class="left-zxkf"> 
+       <ul id="scrollContent"> 
+        <li> 
+         <div class="zxkf-time"> 
+          <em> <span> 2019年06月 </span> </em> 
+         </div> 
+         <div class="zxkf-title"> 
+          <span class="zxkf-title-left"> <a href="http://www.zzjjw.cn/news/show-108731.html" target="_blank" title="开篇｜广隆集团与金地物业携手打造未来品质人居"> 开篇｜广隆集团与金地物业携手打造未来品质人居 </a> </span> 
+          <span class="zxkf-title-right"> 开发区 </span> 
+          <span class="zxkf-title-center"> <strong> 8000 </strong> 元/㎡ </span> 
+         </div> 
+         <div class="zxkf-title"> 
+          <span class="zxkf-title-left"> <a href="http://www.zzjjw.cn/news/show-108731.html" target="_blank" title="开篇｜广隆集团与金地物业携手打造未来品质人居"> 开篇｜广隆集团与金地物业携手打造未来品质人居 </a> </span> 
+          <span class="zxkf-title-right"> 开发区 </span> 
+          <span class="zxkf-title-center"> <strong> 8000 </strong> 元/㎡ </span> 
+         </div> 
+         <div class="zxkf-title"> 
+          <span class="zxkf-title-left"> <a href="http://www.zzjjw.cn/news/show-108731.html" target="_blank" title="开篇｜广隆集团与金地物业携手打造未来品质人居"> 开篇｜广隆集团与金地物业携手打造未来品质人居 </a> </span> 
+          <span class="zxkf-title-right"> 开发区 </span> 
+          <span class="zxkf-title-center"> <strong> 8000 </strong> 元/㎡ </span> 
+         </div> </li> 
+        <li> 
+         <div class="zxkf-time"> 
+          <em> <span> 2019年05月 </span> </em> 
+         </div> 
+         <div class="zxkf-title"> 
+          <span class="zxkf-title-left"> <a href="http://www.zzjjw.cn/news/show-108731.html" target="_blank" title="开篇｜广隆集团与金地物业携手打造未来品质人居"> 开篇｜广隆集团与金地物业携手打造未来品质人居 </a> </span> 
+          <span class="zxkf-title-right"> 开发区 </span> 
+          <span class="zxkf-title-center"> <strong> 8000 </strong> 元/㎡ </span> 
+         </div> </li> 
+       </ul> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="right"> 
+     <div class="module-city-feed-flow"> 
+      <div class="feed-wrap"> 
+       <div class="feed-item feed-item-1 global-clearfix"> 
+        <a class="feed-item-pic-link img-do" target="_blank" href="http://www.zzjjw.cn/news/show-108731.html"> <img class="feed-item-pic lazy-load-img" src="https://t.focus-img.cn/sh160x120sh/xf/xc/e239934b-714c-451a-9e19-1b0ec9e3e700.JPEG" data-lazy_src="https://t.focus-img.cn/sh160x120sh/xf/xc/e239934b-714c-451a-9e19-1b0ec9e3e700.JPEG" /> <span class="tmdt"> </span> <span class="mask-xgt"> 效果图 </span> </a> 
+        <div class="feed-item-container"> 
+         <p class="feed-item-title"> <span data-height="52"> <a href="http://www.zzjjw.cn/news/show-108731.html" target="_blank"> 开篇｜广隆集团与金地物业携手打造未来品质人居 </a> <span class="feed-item-count global-clearfix"> </span> </span> </p> 
+         <div class="feed-item-des"> 
+          <span class="address" title="XXXXXXXXXX"> <span class="address-icon fa fa-map-marker"> </span> <span> 位置 </span> </span> 
+          <span class="price"> <em> 待定 </em> </span> 
+         </div> 
+         <div class="tag-group"> 
+          <span class="tag"> 普通住宅 </span> 
+          <span class="tag"> 超高层 </span> 
+          <span class="tag"> 投资地产 </span> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="feed-item feed-item-1 global-clearfix"> 
+        <a class="feed-item-pic-link img-do" target="_blank" href="http://www.zzjjw.cn/news/show-108731.html"> <img class="feed-item-pic lazy-load-img" src="https://t.focus-img.cn/sh160x120sh/xf/xc/e239934b-714c-451a-9e19-1b0ec9e3e700.JPEG" data-lazy_src="https://t.focus-img.cn/sh160x120sh/xf/xc/e239934b-714c-451a-9e19-1b0ec9e3e700.JPEG" /> <span class="tmdt"> </span> <span class="mask-xgt"> 效果图 </span> </a> 
+        <div class="feed-item-container"> 
+         <p class="feed-item-title"> <span data-height="52"> <a href="http://www.zzjjw.cn/news/show-108731.html" target="_blank"> 开篇｜广隆集团与金地物业携手打造未来品质人居 </a> <span class="feed-item-count global-clearfix"> </span> </span> </p> 
+         <div class="feed-item-des"> 
+          <span class="address" title="XXXXXXXXXX"> <span class="address-icon fa fa-map-marker"> </span> <span> 位置 </span> </span> 
+          <span class="price"> <em> 待定 </em> </span> 
+         </div> 
+         <div class="tag-group"> 
+          <span class="tag"> 普通住宅 </span> 
+          <span class="tag"> 超高层 </span> 
+          <span class="tag"> 投资地产 </span> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="feed-item feed-item-1 global-clearfix"> 
+        <a class="feed-item-pic-link img-do" target="_blank" href="http://www.zzjjw.cn/news/show-108731.html"> <img class="feed-item-pic lazy-load-img" src="https://t.focus-img.cn/sh160x120sh/xf/xc/e239934b-714c-451a-9e19-1b0ec9e3e700.JPEG" data-lazy_src="https://t.focus-img.cn/sh160x120sh/xf/xc/e239934b-714c-451a-9e19-1b0ec9e3e700.JPEG" /> <span class="tmdt"> </span> <span class="mask-xgt"> 效果图 </span> </a> 
+        <div class="feed-item-container"> 
+         <p class="feed-item-title"> <span data-height="52"> <a href="http://www.zzjjw.cn/news/show-108731.html" target="_blank"> 开篇｜广隆集团与金地物业携手打造未来品质人居 </a> <span class="feed-item-count global-clearfix"> </span> </span> </p> 
+         <div class="feed-item-des"> 
+          <span class="address" title="XXXXXXXXXX"> <span class="address-icon fa fa-map-marker"> </span> <span> 位置 </span> </span> 
+          <span class="price"> <em> 待定 </em> </span> 
+         </div> 
+         <div class="tag-group"> 
+          <span class="tag"> 普通住宅 </span> 
+          <span class="tag"> 超高层 </span> 
+          <span class="tag"> 投资地产 </span> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="feed-item feed-item-1 global-clearfix"> 
+        <a class="feed-item-pic-link img-do" target="_blank" href="http://www.zzjjw.cn/news/show-108731.html"> <img class="feed-item-pic lazy-load-img" src="https://t.focus-img.cn/sh160x120sh/xf/xc/e239934b-714c-451a-9e19-1b0ec9e3e700.JPEG" data-lazy_src="https://t.focus-img.cn/sh160x120sh/xf/xc/e239934b-714c-451a-9e19-1b0ec9e3e700.JPEG" /> <span class="tmdt"> </span> <span class="mask-xgt"> 效果图 </span> </a> 
+        <div class="feed-item-container"> 
+         <p class="feed-item-title"> <span data-height="52"> <a href="http://www.zzjjw.cn/news/show-108731.html" target="_blank"> 开篇｜广隆集团与金地物业携手打造未来品质人居 </a> <span class="feed-item-count global-clearfix"> </span> </span> </p> 
+         <div class="feed-item-des"> 
+          <span class="address" title="XXXXXXXXXX"> <span class="address-icon fa fa-map-marker"> </span> <span> 位置 </span> </span> 
+          <span class="price"> <em> 待定 </em> </span> 
+         </div> 
+         <div class="tag-group"> 
+          <span class="tag"> 普通住宅 </span> 
+          <span class="tag"> 超高层 </span> 
+          <span class="tag"> 投资地产 </span> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="feed-item feed-item-1 global-clearfix"> 
+        <a class="feed-item-pic-link img-do" target="_blank" href="http://www.zzjjw.cn/news/show-108731.html"> <img class="feed-item-pic lazy-load-img" src="https://t.focus-img.cn/sh160x120sh/xf/xc/e239934b-714c-451a-9e19-1b0ec9e3e700.JPEG" data-lazy_src="https://t.focus-img.cn/sh160x120sh/xf/xc/e239934b-714c-451a-9e19-1b0ec9e3e700.JPEG" /> <span class="tmdt"> </span> <span class="mask-xgt"> 效果图 </span> </a> 
+        <div class="feed-item-container"> 
+         <p class="feed-item-title"> <span data-height="52"> <a href="http://www.zzjjw.cn/news/show-108731.html" target="_blank"> 开篇｜广隆集团与金地物业携手打造未来品质人居 </a> <span class="feed-item-count global-clearfix"> </span> </span> </p> 
+         <div class="feed-item-des"> 
+          <span class="address" title="XXXXXXXXXX"> <span class="address-icon fa fa-map-marker"> </span> <span> 位置 </span> </span> 
+          <span class="price"> <em> 待定 </em> </span> 
+         </div> 
+         <div class="tag-group"> 
+          <span class="tag"> 普通住宅 </span> 
+          <span class="tag"> 超高层 </span> 
+          <span class="tag"> 投资地产 </span> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="feed-item feed-item-1 global-clearfix"> 
+        <a class="feed-item-pic-link img-do" target="_blank" href="http://www.zzjjw.cn/news/show-108731.html"> <img class="feed-item-pic lazy-load-img" src="https://t.focus-img.cn/sh160x120sh/xf/xc/e239934b-714c-451a-9e19-1b0ec9e3e700.JPEG" data-lazy_src="https://t.focus-img.cn/sh160x120sh/xf/xc/e239934b-714c-451a-9e19-1b0ec9e3e700.JPEG" /> <span class="tmdt"> </span> <span class="mask-xgt"> 效果图 </span> </a> 
+        <div class="feed-item-container"> 
+         <p class="feed-item-title"> <span data-height="52"> <a href="http://www.zzjjw.cn/news/show-108731.html" target="_blank"> 开篇｜广隆集团与金地物业携手打造未来品质人居 </a> <span class="feed-item-count global-clearfix"> </span> </span> </p> 
+         <div class="feed-item-des"> 
+          <span class="address" title="XXXXXXXXXX"> <span class="address-icon fa fa-map-marker"> </span> <span> 位置 </span> </span> 
+          <span class="price"> <em> 待定 </em> </span> 
+         </div> 
+         <div class="tag-group"> 
+          <span class="tag"> 普通住宅 </span> 
+          <span class="tag"> 超高层 </span> 
+          <span class="tag"> 投资地产 </span> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="feed-item feed-item-1 global-clearfix"> 
+        <a class="feed-item-pic-link img-do" target="_blank" href="http://www.zzjjw.cn/news/show-108731.html"> <img class="feed-item-pic lazy-load-img" src="https://t.focus-img.cn/sh160x120sh/xf/xc/e239934b-714c-451a-9e19-1b0ec9e3e700.JPEG" data-lazy_src="https://t.focus-img.cn/sh160x120sh/xf/xc/e239934b-714c-451a-9e19-1b0ec9e3e700.JPEG" /> <span class="tmdt"> </span> <span class="mask-xgt"> 效果图 </span> </a> 
+        <div class="feed-item-container"> 
+         <p class="feed-item-title"> <span data-height="52"> <a href="http://www.zzjjw.cn/news/show-108731.html" target="_blank"> 开篇｜广隆集团与金地物业携手打造未来品质人居 </a> <span class="feed-item-count global-clearfix"> </span> </span> </p> 
+         <div class="feed-item-des"> 
+          <span class="address" title="XXXXXXXXXX"> <span class="address-icon fa fa-map-marker"> </span> <span> 位置 </span> </span> 
+          <span class="price"> <em> 待定 </em> </span> 
+         </div> 
+         <div class="tag-group"> 
+          <span class="tag"> 普通住宅 </span> 
+          <span class="tag"> 超高层 </span> 
+          <span class="tag"> 投资地产 </span> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <!--开盘动态结束--> 
+  <div class="split-bar"> 
+  </div> 
+  <!--新房中心开始--> 
+  <div class="index-module" id="new-house-center"> 
+   <div class="index-page-new-house-module"> 
+    <div class="left"> 
+     <p class="module-title"> 新房中心 </p> 
+     <div class="left-module tool-group"> 
+      <p class="left-module-title"> 购房工具 </p> 
+      <div class="content"> 
+       <a href="http://www.zzjjw.cn/map/lp/" target="_blank"> 
+        <div class="tool-item"> 
+         <img class="tool-icon" src="" /> 
+         <p> 地图找房 </p> 
+        </div> </a> 
+       <a href="" target="_blank"> 
+        <div class="tool-item wxapp-item"> 
+         <img class="tool-icon" src="" /> 
+         <p> 小程序 </p> 
+        </div> </a> 
+      </div> 
+     </div> 
+     <div class="left-module kft"> 
+      <p class="left-module-title"> 看房团报名 </p> 
+      <div class="content"> 
+       <form id="kftForm" action="/enroll/save.action" method="post" target="_blank"> 
+        <input name="activityId" type="hidden" value="2" /> 
+        <div class="input-item"> 
+         <label> 您的姓名 </label> 
+         <input name="id" id="name" type="text" placeholder="请输入您的姓名" /> 
+        </div> 
+        <div class="input-item"> 
+         <label> 您的手机号 </label> 
+         <input name="phone" id="phone" type="text" placeholder="请输入您的手机号" /> 
+        </div> 
+        <div class="input-item"> 
+         <label> 意向楼盘 </label> 
+         <input name="qq" id="qq" type="text" placeholder="请输入您的意向楼盘" /> 
+        </div> 
+        <div class="input-item"> 
+         <label> 看房人数 </label> 
+         <select name="numbers" id="numbers" placeholder="请选择看房人数"> <option value="1"> 1 </option> <option value="2"> 2 </option> <option value="3"> 3 </option> <option value="4"> 4 </option> </select> 
+        </div> 
+        <button id="kft-submit" class="appointment"> 报名 </button> 
+       </form> 
+      </div> 
+     </div> 
+     <div class="left-module tw"> 
+      <p class="left-module-title"> 有问必答 </p> 
+      <div class="content"> 
+       <div class="qa-item-wrap"> 
+        <div class="qa-content-wrap"> 
+         <a href="https://ask.focus.cn/question/1e9aae61470ccc60" target="_blank" data-operationid="494"> 
+          <div class="qa-line"> 
+           <span class="label">问</span> 
+           <span class="content q-content">请问，住房公积金个人住房贷款期限是多少？</span> 
+          </div> </a> 
+         <a href="https://ask.focus.cn/answer/8eb52d044135e3ca/" target="_blank" data-operationid="494"> 
+          <div class="qa-line"> 
+           <span class="label a-label">答</span> 
+           <span class="content q-content">住房公积金个人住房贷款期限一般最短为 年最长为 年具体到个人要结合借款申请人年龄和所购房屋的剩余使用年限来确定 根据借款申请人年龄计算出能够贷款的年限即 岁减申请人申请时年龄 根据所购房屋的剩余使用年限计算出能够贷款的年限即建筑物耐用年限砖混的为 年钢混的为 年减建筑物已使用年限再减 年 以上述两个年限中较短的年限确定为可以贷款的最长年限例如申请人因购买二手房向北京住房公积金管理中心申请贷款其年龄为 岁配偶年龄为 岁所购房屋为砖混结构已使用 年按年龄计算的贷款年限为 年按所购房屋的剩余使用年限计算的贷款年限为 年 年申请人最长贷款年限为 年</span> 
+          </div> </a> 
+        </div> 
+        <div class="qa-footer"> 
+         <div class="qa-tags-group"> 
+          <a href="https://ask.focus.cn/ta/c49dbd64f201f71b" target="_blank" class="qa-tag" data-operationid="494">北京</a> 
+         </div> 
+         <a href="https://ask.focus.cn/question/1e9aae61470ccc60" target="_blank" class="qa-num" data-operationid="494">1个回答</a> 
+        </div> 
+       </div> 
+       <div class="qa-item-wrap"> 
+        <div class="qa-content-wrap"> 
+         <a href="https://ask.focus.cn/question/1e9aae61470ccc60" target="_blank" data-operationid="494"> 
+          <div class="qa-line"> 
+           <span class="label">问</span> 
+           <span class="content q-content">请问，住房公积金个人住房贷款期限是多少？</span> 
+          </div> </a> 
+         <a href="https://ask.focus.cn/answer/8eb52d044135e3ca/" target="_blank" data-operationid="494"> 
+          <div class="qa-line"> 
+           <span class="label a-label">答</span> 
+           <span class="content q-content">住房公积金个人住房贷款期限一般最短为 年最长为 年具体到个人要结合借款申请人年龄和所购房屋的剩余使用年限来确定 根据借款申请人年龄计算出能够贷款的年限即 岁减申请人申请时年龄 根据所购房屋的剩余使用年限计算出能够贷款的年限即建筑物耐用年限砖混的为 年钢混的为 年减建筑物已使用年限再减 年 以上述两个年限中较短的年限确定为可以贷款的最长年限例如申请人因购买二手房向北京住房公积金管理中心申请贷款其年龄为 岁配偶年龄为 岁所购房屋为砖混结构已使用 年按年龄计算的贷款年限为 年按所购房屋的剩余使用年限计算的贷款年限为 年 年申请人最长贷款年限为 年</span> 
+          </div> </a> 
+        </div> 
+        <div class="qa-footer"> 
+         <div class="qa-tags-group"> 
+          <a href="" target="_blank" class="qa-tag" data-operationid="494">北京</a> 
+         </div> 
+         <a href="" target="_blank" class="qa-num" data-operationid="494">1个回答</a> 
+        </div> 
+       </div> 
+       <div class="qa-item-wrap"> 
+        <div class="qa-content-wrap"> 
+         <a href="" target="_blank" data-operationid="494"> 
+          <div class="qa-line"> 
+           <span class="label">问</span> 
+           <span class="content q-content">请问，住房公积金个人住房贷款期限是多少？</span> 
+          </div> </a> 
+         <a href="" target="_blank" data-operationid="494"> 
+          <div class="qa-line"> 
+           <span class="label a-label">答</span> 
+           <span class="content q-content">住房公积金个人住房贷款期限一般最短为 年最长为 年具体到个人要结合借款申请人年龄和所购房屋的剩余使用年限来确定 根据借款申请人年龄计算出能够贷款的年限即 岁减申请人申请时年龄 根据所购房屋的剩余使用年限计算出能够贷款的年限即建筑物耐用年限砖混的为 年钢混的为 年减建筑物已使用年限再减 年 以上述两个年限中较短的年限确定为可以贷款的最长年限例如申请人因购买二手房向北京住房公积金管理中心申请贷款其年龄为 岁配偶年龄为 岁所购房屋为砖混结构已使用 年按年龄计算的贷款年限为 年按所购房屋的剩余使用年限计算的贷款年限为 年 年申请人最长贷款年限为 年</span> 
+          </div> </a> 
+        </div> 
+        <div class="qa-footer"> 
+         <div class="qa-tags-group"> 
+          <a href="" target="_blank" class="qa-tag" data-operationid="494">北京</a> 
+         </div> 
+         <a href="" target="_blank" class="qa-num" data-operationid="494">1个回答</a> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="right"> 
+     <div class="index-page-tab-type-1"> 
+      <div class="tab-nav"> 
+       <div class="nav-item-group"> 
+        <a href="javascript:;" class="tab-nav-item" data-index="1" data-operationid="143"> 热门楼盘 </a> 
+        <a href="javascript:;" class="tab-nav-item" data-index="2" data-operationid="144"> 近期开盘 </a> 
+        <a href="javascript:;" class="tab-nav-item" data-index="3" data-operationid="145"> 宜居改善 </a> 
+        <a href="javascript:;" class="tab-nav-item" data-index="4" data-operationid="146"> 婚房刚需 </a> 
+        <a href="javascript:;" class="tab-nav-item" data-index="5" data-operationid="147"> 临校楼盘 </a> 
+       </div> 
+       <a href="http://www.zzjjw.cn/lfxljyjs/index.html" target="_blank" class="more"> <span class="more-text"> 更多楼盘 </span> <em class="more-icon">  </em> </a> 
+      </div> 
+      <div class="tab-content" data-index="1"> 
+       <div class="tab-content-item"> 
+        <a href="http://www.zzjjw.cn/lfxljyjs/index.html" target="_blank" data-operationid="380"> 
+         <div class="item-img-wrap"> 
+          <img class="item-img img lazy-load-img" src="http://img.zzjjw.cn//19/02/26/1902261641149813026.jpg" onerror="javascript:this.src='https://t.focus-res.cn/front-end/image/focus-default-img/front-pc/default-260-195.png'" data-lazy_src="https://t2.focus-img.cn/sh285x215sh/focus-op/prod/58b151a81b5f1cdf2a7072e89b66dfda.jpg" /> 
+          <div class="img-tags-group"> 
+           <span class="img-tag"> 住宅 </span> 
+           <span class="img-tag"> 八里湖 </span> 
+          </div> 
+         </div> </a> 
+        <a href="http://www.zzjjw.cn/lfxljyjs/index.html" target="_blank" title="天阳蔚蓝" data-operationid="380"> 
+         <div class="item-title-wrap"> 
+          <span class="item-title"> 水岸莲华 </span> 
+          <span class="item-title-tag   on-sale "> 在售 </span> 
+         </div> </a> 
+        <div class="item-info-wrap"> 
+         <span class="info" title="8000元/㎡"> <span class="price"> 8000 </span> <span class="price-unit"> 元/㎡ </span> </span> 
+         <span class="address" title="八里湖新区"> 八里湖新区 </span> 
+        </div> 
+       </div> 
+       <div class="tab-content-item"> 
+        <a href="http://www.zzjjw.cn/lfxljyjs/index.html" target="_blank" data-operationid="380"> 
+         <div class="item-img-wrap"> 
+          <img class="item-img img lazy-load-img" src="http://img.zzjjw.cn//19/02/26/1902261641149813026.jpg" onerror="javascript:this.src='https://t.focus-res.cn/front-end/image/focus-default-img/front-pc/default-260-195.png'" data-lazy_src="https://t2.focus-img.cn/sh285x215sh/focus-op/prod/58b151a81b5f1cdf2a7072e89b66dfda.jpg" /> 
+          <div class="img-tags-group"> 
+           <span class="img-tag"> 住宅 </span> 
+           <span class="img-tag"> 八里湖 </span> 
+          </div> 
+         </div> </a> 
+        <a href="http://www.zzjjw.cn/lfxljyjs/index.html" target="_blank" title="天阳蔚蓝" data-operationid="380"> 
+         <div class="item-title-wrap"> 
+          <span class="item-title"> 水岸莲华 </span> 
+          <span class="item-title-tag   on-sale "> 在售 </span> 
+         </div> </a> 
+        <div class="item-info-wrap"> 
+         <span class="info" title="8000元/㎡"> <span class="price"> 8000 </span> <span class="price-unit"> 元/㎡ </span> </span> 
+         <span class="address" title="八里湖新区"> 八里湖新区 </span> 
+        </div> 
+       </div> 
+       <div class="tab-content-item"> 
+        <a href="http://www.zzjjw.cn/lfxljyjs/index.html" target="_blank" data-operationid="380"> 
+         <div class="item-img-wrap"> 
+          <img class="item-img img lazy-load-img" src="http://img.zzjjw.cn//19/02/26/1902261641149813026.jpg" onerror="javascript:this.src='https://t.focus-res.cn/front-end/image/focus-default-img/front-pc/default-260-195.png'" data-lazy_src="https://t2.focus-img.cn/sh285x215sh/focus-op/prod/58b151a81b5f1cdf2a7072e89b66dfda.jpg" /> 
+          <div class="img-tags-group"> 
+           <span class="img-tag"> 住宅 </span> 
+           <span class="img-tag"> 八里湖 </span> 
+          </div> 
+         </div> </a> 
+        <a href="http://www.zzjjw.cn/lfxljyjs/index.html" target="_blank" title="天阳蔚蓝" data-operationid="380"> 
+         <div class="item-title-wrap"> 
+          <span class="item-title"> 水岸莲华 </span> 
+          <span class="item-title-tag   on-sale "> 在售 </span> 
+         </div> </a> 
+        <div class="item-info-wrap"> 
+         <span class="info" title="8000元/㎡"> <span class="price"> 8000 </span> <span class="price-unit"> 元/㎡ </span> </span> 
+         <span class="address" title="八里湖新区"> 八里湖新区 </span> 
+        </div> 
+       </div> 
+       <div class="tab-content-item"> 
+        <a href="http://www.zzjjw.cn/lfxljyjs/index.html" target="_blank" data-operationid="380"> 
+         <div class="item-img-wrap"> 
+          <img class="item-img img lazy-load-img" src="http://img.zzjjw.cn//19/02/26/1902261641149813026.jpg" onerror="javascript:this.src='https://t.focus-res.cn/front-end/image/focus-default-img/front-pc/default-260-195.png'" data-lazy_src="https://t2.focus-img.cn/sh285x215sh/focus-op/prod/58b151a81b5f1cdf2a7072e89b66dfda.jpg" /> 
+          <div class="img-tags-group"> 
+           <span class="img-tag"> 住宅 </span> 
+           <span class="img-tag"> 八里湖 </span> 
+          </div> 
+         </div> </a> 
+        <a href="http://www.zzjjw.cn/lfxljyjs/index.html" target="_blank" title="天阳蔚蓝" data-operationid="380"> 
+         <div class="item-title-wrap"> 
+          <span class="item-title"> 水岸莲华 </span> 
+          <span class="item-title-tag   on-sale "> 在售 </span> 
+         </div> </a> 
+        <div class="item-info-wrap"> 
+         <span class="info" title="8000元/㎡"> <span class="price"> 8000 </span> <span class="price-unit"> 元/㎡ </span> </span> 
+         <span class="address" title="八里湖新区"> 八里湖新区 </span> 
+        </div> 
+       </div> 
+       <div class="tab-content-item"> 
+        <a href="http://www.zzjjw.cn/lfxljyjs/index.html" target="_blank" data-operationid="380"> 
+         <div class="item-img-wrap"> 
+          <img class="item-img img lazy-load-img" src="http://img.zzjjw.cn//19/02/26/1902261641149813026.jpg" onerror="javascript:this.src='https://t.focus-res.cn/front-end/image/focus-default-img/front-pc/default-260-195.png'" data-lazy_src="https://t2.focus-img.cn/sh285x215sh/focus-op/prod/58b151a81b5f1cdf2a7072e89b66dfda.jpg" /> 
+          <div class="img-tags-group"> 
+           <span class="img-tag"> 住宅 </span> 
+           <span class="img-tag"> 八里湖 </span> 
+          </div> 
+         </div> </a> 
+        <a href="http://www.zzjjw.cn/lfxljyjs/index.html" target="_blank" title="天阳蔚蓝" data-operationid="380"> 
+         <div class="item-title-wrap"> 
+          <span class="item-title"> 水岸莲华 </span> 
+          <span class="item-title-tag   on-sale "> 在售 </span> 
+         </div> </a> 
+        <div class="item-info-wrap"> 
+         <span class="info" title="8000元/㎡"> <span class="price"> 8000 </span> <span class="price-unit"> 元/㎡ </span> </span> 
+         <span class="address" title="八里湖新区"> 八里湖新区 </span> 
+        </div> 
+       </div> 
+       <div class="tab-content-item"> 
+        <a href="http://www.zzjjw.cn/lfxljyjs/index.html" target="_blank" data-operationid="380"> 
+         <div class="item-img-wrap"> 
+          <img class="item-img img lazy-load-img" src="http://img.zzjjw.cn//19/02/26/1902261641149813026.jpg" onerror="javascript:this.src='https://t.focus-res.cn/front-end/image/focus-default-img/front-pc/default-260-195.png'" data-lazy_src="https://t2.focus-img.cn/sh285x215sh/focus-op/prod/58b151a81b5f1cdf2a7072e89b66dfda.jpg" /> 
+          <div class="img-tags-group"> 
+           <span class="img-tag"> 住宅 </span> 
+           <span class="img-tag"> 八里湖 </span> 
+          </div> 
+         </div> </a> 
+        <a href="http://www.zzjjw.cn/lfxljyjs/index.html" target="_blank" title="天阳蔚蓝" data-operationid="380"> 
+         <div class="item-title-wrap"> 
+          <span class="item-title"> 水岸莲华 </span> 
+          <span class="item-title-tag   on-sale "> 在售 </span> 
+         </div> </a> 
+        <div class="item-info-wrap"> 
+         <span class="info" title="8000元/㎡"> <span class="price"> 8000 </span> <span class="price-unit"> 元/㎡ </span> </span> 
+         <span class="address" title="八里湖新区"> 八里湖新区 </span> 
+        </div> 
+       </div> 
+       <div class="tab-content-item"> 
+        <a href="http://www.zzjjw.cn/lfxljyjs/index.html" target="_blank" data-operationid="380"> 
+         <div class="item-img-wrap"> 
+          <img class="item-img img lazy-load-img" src="http://img.zzjjw.cn//19/02/26/1902261641149813026.jpg" onerror="javascript:this.src='https://t.focus-res.cn/front-end/image/focus-default-img/front-pc/default-260-195.png'" data-lazy_src="https://t2.focus-img.cn/sh285x215sh/focus-op/prod/58b151a81b5f1cdf2a7072e89b66dfda.jpg" /> 
+          <div class="img-tags-group"> 
+           <span class="img-tag"> 住宅 </span> 
+           <span class="img-tag"> 八里湖 </span> 
+          </div> 
+         </div> </a> 
+        <a href="http://www.zzjjw.cn/lfxljyjs/index.html" target="_blank" title="天阳蔚蓝" data-operationid="380"> 
+         <div class="item-title-wrap"> 
+          <span class="item-title"> 水岸莲华 </span> 
+          <span class="item-title-tag   on-sale "> 在售 </span> 
+         </div> </a> 
+        <div class="item-info-wrap"> 
+         <span class="info" title="8000元/㎡"> <span class="price"> 8000 </span> <span class="price-unit"> 元/㎡ </span> </span> 
+         <span class="address" title="八里湖新区"> 八里湖新区 </span> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="tab-content" data-index="2"> 
+       <div class="tab-content-item"> 
+        <a href="http://www.zzjjw.cn/lfxljyjs/index.html" target="_blank" data-operationid="380"> 
+         <div class="item-img-wrap"> 
+          <img class="item-img img lazy-load-img" src="http://img.zzjjw.cn//19/02/26/1902261641149813026.jpg" onerror="javascript:this.src='https://t.focus-res.cn/front-end/image/focus-default-img/front-pc/default-260-195.png'" data-lazy_src="https://t2.focus-img.cn/sh285x215sh/focus-op/prod/58b151a81b5f1cdf2a7072e89b66dfda.jpg" /> 
+          <div class="img-tags-group"> 
+           <span class="img-tag"> 住宅 </span> 
+           <span class="img-tag"> 八里湖 </span> 
+          </div> 
+         </div> </a> 
+        <a href="http://www.zzjjw.cn/lfxljyjs/index.html" target="_blank" title="水岸莲华" data-operationid="380"> 
+         <div class="item-title-wrap"> 
+          <span class="item-title"> 水岸莲华 </span> 
+          <span class="item-title-tag   on-sale "> 在售 </span> 
+         </div> </a> 
+        <div class="item-info-wrap"> 
+         <span class="info" title="8000元/㎡"> <span class="price"> 8000 </span> <span class="price-unit"> 元/㎡ </span> </span> 
+         <span class="address" title="临安"> 八里湖新区 </span> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <!--新房中心结束--> 
+  <div class="split-bar"> 
+  </div> 
+  <!--经纪人开始--> 
+  <div class="module-mp-recommend"> 
+   <div class="dynamic-title"> 
+    <span class="bar"> </span> 
+    <span class="text"> 经纪人 </span> 
+    <span class="bar"> </span> 
+   </div> 
+   <div class="slide2"> 
+    <div class="slide-wrap"> 
+     <div class="hd"> 
+      <a class="prev"> <img src="http://www.tengfun.com/skin/tfy/img/img26.png" /> </a> 
+      <a class="next"> <img src="http://www.tengfun.com/skin/tfy/img/img27.png" /> </a> 
+     </div> 
+     <div class="bd"> 
+      <ul> 
+       <li class="tfy-item"> <a href="1" target="_blank"> 
+         <div class="tfy-img"> 
+          <img src="http://www.tengfun.com/house/attachment/face/201905/pre_1557653674chq09.jpg" /> 
+         </div> 
+         <div class="tfy-tit"> 
+          <div class="mt nowrap">
+            好德地产 
+          </div> 
+          <div class="mb">
+            好德地产 
+          </div> 
+         </div> </a> </li> 
+       <li class="tfy-item"> <a href="" target="_blank"> 
+         <div class="tfy-img"> 
+          <img src="http://www.tengfun.com/house/attachment/face/201905/pre_1557653674chq09.jpg" /> 
+         </div> 
+         <div class="tfy-tit"> 
+          <div class="mt nowrap"> 
+          </div> 
+          <div class="mb">
+            小徐 
+          </div> 
+         </div> </a> </li> 
+       <li class="tfy-item"> <a href="" target="_blank"> 
+         <div class="tfy-img"> 
+          <img src="house/attachment/face/201811/pre_15428678148qhie.jpeg" /> 
+         </div> 
+         <div class="tfy-tit"> 
+          <div class="mt nowrap"> 
+          </div> 
+          <div class="mb">
+            冯经理 
+          </div> 
+         </div> </a> </li> 
+       <li class="tfy-item"> <a href="" target="_blank"> 
+         <div class="tfy-img"> 
+          <img src="house/attachment/face/201806/pre_1528617582lgdd2.jpg" /> 
+         </div> 
+         <div class="tfy-tit"> 
+          <div class="mt nowrap">
+            恒宇地产 
+          </div> 
+          <div class="mb">
+            任洁 
+          </div> 
+         </div> </a> </li> 
+       <li class="tfy-item"> <a href="" target="_blank"> 
+         <div class="tfy-img"> 
+          <img src="house/attachment/face/201905/pre_1557710235ytgxz.png" /> 
+         </div> 
+         <div class="tfy-tit"> 
+          <div class="mt nowrap">
+            恒宇地产 
+          </div> 
+          <div class="mb">
+            杨先生 
+          </div> 
+         </div> </a> </li> 
+       <li class="tfy-item"> <a href="" target="_blank"> 
+         <div class="tfy-img"> 
+          <img src="house/attachment/face/201902/pre_15499506577bx5i.jpg" /> 
+         </div> 
+         <div class="tfy-tit"> 
+          <div class="mt nowrap">
+            恒宇地产 
+          </div> 
+          <div class="mb">
+            胡先生 
+          </div> 
+         </div> </a> </li> 
+       <li class="tfy-item"> <a href="" target="_blank"> 
+         <div class="tfy-img"> 
+          <img src="house/attachment/face/201803/pre_1521113640jkjoy.jpg" /> 
+         </div> 
+         <div class="tfy-tit"> 
+          <div class="mt nowrap"> 
+          </div> 
+          <div class="mb">
+            王军 
+          </div> 
+         </div> </a> </li> 
+      </ul> 
+      <ul> 
+       <li class="tfy-item"> <a href="" target="_blank"> 
+         <div class="tfy-img"> 
+          <img src="house/attachment/face/201902/pre_15499506577bx5i.jpg" /> 
+         </div> 
+         <div class="tfy-tit"> 
+          <div class="mt nowrap">
+            恒宇地产 
+          </div> 
+          <div class="mb">
+            胡先生 
+          </div> 
+         </div> </a> </li> 
+       <li class="tfy-item"> <a href="" target="_blank"> 
+         <div class="tfy-img"> 
+          <img src="house/attachment/face/201803/pre_1521113640jkjoy.jpg" /> 
+         </div> 
+         <div class="tfy-tit"> 
+          <div class="mt nowrap"> 
+          </div> 
+          <div class="mb">
+            王军 
+          </div> 
+         </div> </a> </li> 
+       <li class="tfy-item"> <a href="" target="_blank"> 
+         <div class="tfy-img"> 
+          <img src="house/attachment/face/201906/pre_1559858224fet3g.png" /> 
+         </div> 
+         <div class="tfy-tit"> 
+          <div class="mt nowrap">
+            好德地产 
+          </div> 
+          <div class="mb">
+            任丽平微信号 
+          </div> 
+         </div> </a> </li> 
+       <li class="tfy-item"> <a href="" target="_blank"> 
+         <div class="tfy-img"> 
+          <img src="house/attachment/face/201906/pre_1559362394kzbm9.jpg" /> 
+         </div> 
+         <div class="tfy-tit"> 
+          <div class="mt nowrap"> 
+          </div> 
+          <div class="mb">
+            刘经理 
+          </div> 
+         </div> </a> </li> 
+       <li class="tfy-item"> <a href="" target="_blank"> 
+         <div class="tfy-img"> 
+          <img src="house/attachment/face/201905/pre_1557149507t6fei.jpg" /> 
+         </div> 
+         <div class="tfy-tit"> 
+          <div class="mt nowrap">
+            好房地产 
+          </div> 
+          <div class="mb">
+            周女士 
+          </div> 
+         </div> </a> </li> 
+       <li class="tfy-item"> <a href="" target="_blank"> 
+         <div class="tfy-img"> 
+          <img src="house/attachment/face/201903/pre_1553913640bgmov.jpg" /> 
+         </div> 
+         <div class="tfy-tit"> 
+          <div class="mt nowrap">
+            兴合房产 
+          </div> 
+          <div class="mb">
+            高女士 
+          </div> 
+         </div> </a> </li> 
+       <li class="tfy-item"> <a href="" target="_blank"> 
+         <div class="tfy-img"> 
+          <img src="house/attachment/face/201805/pre_15263744602ab7z.jpg" /> 
+         </div> 
+         <div class="tfy-tit"> 
+          <div class="mt nowrap">
+            滕州鸿信房产 
+          </div> 
+          <div class="mb">
+            杜先生 
+          </div> 
+         </div> </a> </li> 
+      </ul> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <!--经纪人结束--> 
+  <div class="split-bar"> 
+  </div> 
+  <!--二手房开始--> 
+  <div class="module-esf-recommend"> 
+   <div class="title-area"> 
+    <div class="title-text">
+      二手房 
+    </div> 
+    <div class="search-area"> 
+     <a href="http://esf.zzjjw.cn/Resource/publishSecondHouse.html" class="tfy-map fr" style="background: url(http://www.tengfun.com/skin/tfy/img/img20.png);">发布房源</a> 
+     <div class="search"> 
+      <input type="text" id="search2s-keyword" placeholder="请输入小区名称" /> 
+      <button id="search2s-button">搜索</button> 
+     </div> 
+    </div> 
+    <div class="area-tags"> 
+     <a href="http://esf.zzjjw.cn" target="_blank"> <span class="tag"> <span class="icon">  </span> <span class="text"> 二手房频道 </span> </span> </a> 
+     <a href="http://esf.zzjjw.cn/Index/search.html?kind=0" target="_blank"> <span class="tag"> <span class="icon">  </span> <span class="text"> 出售房源 </span> </span> </a> 
+     <a href="http://esf.zzjjw.cn/Index/search.html?kind=1" target="_blank"> <span class="tag"> <span class="icon">  </span> <span class="text"> 求购信息 </span> </span> </a> 
+    </div> 
+   </div> 
+   <div class="info-block"> 
+    <div class="house-block"> 
+     <ul> 
+      <li class="house-item tfy-item"> <a target="_blank" href="house/447099.html"> 
+        <div class="tfy-img"> 
+         <img src="http://www.tengfun.com/house/attachment/information/201903/pre_1551861047t27px.jpg" /> 
+        </div> 
+        <div class="tfy-tit"> 
+         <div class="mt"> 
+          <div class="fl nowrap">
+            急售城建金河湾住房 
+           <img src="http://www.tengfun.com/skin/tfy/img/img21.png" /> 
+          </div> 
+          <div class="fr"> 
+           <span>88万</span> 
+          </div> 
+         </div> 
+         <div class="mb"> 
+          <div class="fl"> 
+           <span>3室1厅2卫</span> 
+           <span>111.6㎡</span> 
+           <span>高层住宅</span> 
+          </div> 
+          <div class="fr"> 
+           <img src="http://www.tengfun.com/skin/tfy/img/icon8.png" />市中心 
+          </div> 
+         </div> 
+        </div> </a> </li> 
+      <li class="house-item tfy-item"> <a target="_blank" href="house/447099.html"> 
+        <div class="tfy-img"> 
+         <img src="http://www.tengfun.com/house/attachment/information/201903/pre_1551861047t27px.jpg" /> 
+        </div> 
+        <div class="tfy-tit"> 
+         <div class="mt"> 
+          <div class="fl nowrap">
+            急售城建金河湾住房 
+           <img src="http://www.tengfun.com/skin/tfy/img/img21.png" /> 
+          </div> 
+          <div class="fr"> 
+           <span>88万</span> 
+          </div> 
+         </div> 
+         <div class="mb"> 
+          <div class="fl"> 
+           <span>3室1厅2卫</span> 
+           <span>111.6㎡</span> 
+           <span>高层住宅</span> 
+          </div> 
+          <div class="fr"> 
+           <img src="http://www.tengfun.com/skin/tfy/img/icon8.png" />市中心 
+          </div> 
+         </div> 
+        </div> </a> </li> 
+      <li class="house-item tfy-item"> <a target="_blank" href="house/447099.html"> 
+        <div class="tfy-img"> 
+         <img src="http://www.tengfun.com/house/attachment/information/201903/pre_1551861047t27px.jpg" /> 
+        </div> 
+        <div class="tfy-tit"> 
+         <div class="mt"> 
+          <div class="fl nowrap">
+            急售城建金河湾住房 
+           <img src="http://www.tengfun.com/skin/tfy/img/img21.png" /> 
+          </div> 
+          <div class="fr"> 
+           <span>88万</span> 
+          </div> 
+         </div> 
+         <div class="mb"> 
+          <div class="fl"> 
+           <span>3室1厅2卫</span> 
+           <span>111.6㎡</span> 
+           <span>高层住宅</span> 
+          </div> 
+          <div class="fr"> 
+           <img src="http://www.tengfun.com/skin/tfy/img/icon8.png" />市中心 
+          </div> 
+         </div> 
+        </div> </a> </li> 
+      <li class="house-item tfy-item"> <a target="_blank" href="house/447099.html"> 
+        <div class="tfy-img"> 
+         <img src="http://www.tengfun.com/house/attachment/information/201903/pre_1551861047t27px.jpg" /> 
+        </div> 
+        <div class="tfy-tit"> 
+         <div class="mt"> 
+          <div class="fl nowrap">
+            急售城建金河湾住房 
+           <img src="http://www.tengfun.com/skin/tfy/img/img21.png" /> 
+          </div> 
+          <div class="fr"> 
+           <span>88万</span> 
+          </div> 
+         </div> 
+         <div class="mb"> 
+          <div class="fl"> 
+           <span>3室1厅2卫</span> 
+           <span>111.6㎡</span> 
+           <span>高层住宅</span> 
+          </div> 
+          <div class="fr"> 
+           <img src="http://www.tengfun.com/skin/tfy/img/icon8.png" />市中心 
+          </div> 
+         </div> 
+        </div> </a> </li> 
+     </ul> 
+     <div class="main-list"> 
+      <ul> 
+       <li> <span class="d1"> 市中心 </span> <span class="a1"> <a href="" target="_blank" class="blue biaoti" style="color:red; "> 寻找长期租户 </a> <span style="margin-left:5px;"> <a href="" target="_blank"> <img src="http://www.tengfun.com/house/member/template/images/tfding.gif" border="0" title="置顶信息" /> </a> </span> <span class="gray cat"> [个人] </span> </span> <span class="b1">3室2厅1卫</span> <span class="b1">115㎡</span> <span class="c1"><em>85万</em></span> <span class="c1">高层住宅</span> <span class="t1">04-15</span> </li> 
+       <li> <span class="d1"> 市中心 </span> <span class="a1"> <a href="" target="_blank" class="blue biaoti" style="color:red; "> 寻找长期租户 </a> <span style="margin-left:5px;"> <a href="" target="_blank"> <img src="http://www.tengfun.com/house/member/template/images/tfding.gif" border="0" title="置顶信息" /> </a> </span> <span class="gray cat"> [个人] </span> </span> <span class="b1">3室2厅1卫</span> <span class="b1">115㎡</span> <span class="c1"><em>85万</em></span> <span class="c1">高层住宅</span> <span class="t1">04-15</span> </li> 
+       <li> <span class="d1"> 市中心 </span> <span class="a1"> <a href="" target="_blank" class="blue biaoti" style="color:red; "> 寻找长期租户 </a> <span style="margin-left:5px;"> <a href="" target="_blank"> <img src="http://www.tengfun.com/house/member/template/images/tfding.gif" border="0" title="置顶信息" /> </a> </span> <span class="gray cat"> [个人] </span> </span> <span class="b1">3室2厅1卫</span> <span class="b1">115㎡</span> <span class="c1"><em>85万</em></span> <span class="c1">高层住宅</span> <span class="t1">04-15</span> </li> 
+      </ul> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <!--二手房结束--> 
+  <div class="split-bar"></div> 
+  <!--租房开始--> 
+  <div class="module-esf-recommend"> 
+   <div class="title-area"> 
+    <div class="title-text">
+      租房 
+    </div> 
+    <div class="search-area"> 
+     <a href="http://esf.zzjjw.cn/Resource/publishSecondHouse.html" class="tfy-map fr" style="background: url(http://www.tengfun.com/skin/tfy/img/img20.png);">发布租房</a> 
+     <div class="search"> 
+      <input type="text" id="searchzf-keyword" placeholder="请输入租房名称" /> 
+      <button id="searchzf-button">搜索</button> 
+     </div> 
+    </div> 
+    <div class="area-tags"> 
+     <a href="http://esf.zzjjw.cn/Site/rent_search?kind=0" target="_blank"> <span class="tag"> <span class="icon">  </span> <span class="text"> 出租房源 </span> </span> </a> 
+     <a href="http://esf.zzjjw.cn/Site/rent_search?kind=1" target="_blank"> <span class="tag"> <span class="icon">  </span> <span class="text"> 求租信息 </span> </span> </a> 
+    </div> 
+   </div> 
+   <div class="info-block"> 
+    <div class="house-block"> 
+     <ul> 
+      <li class="house-item tfy-item"> <a target="_blank" href="house/447099.html"> 
+        <div class="tfy-img"> 
+         <img src="http://www.tengfun.com/house/attachment/information/201903/pre_1551861047t27px.jpg" /> 
+        </div> 
+        <div class="tfy-tit"> 
+         <div class="mt"> 
+          <div class="fl nowrap">
+            急售城建金河湾住房 
+           <img src="http://www.tengfun.com/skin/tfy/img/img21.png" /> 
+          </div> 
+          <div class="fr"> 
+           <span>1500元/月</span> 
+          </div> 
+         </div> 
+         <div class="mb"> 
+          <div class="fl"> 
+           <span>3室1厅2卫</span> 
+           <span>111.6㎡</span> 
+           <span>高层住宅</span> 
+          </div> 
+          <div class="fr"> 
+           <img src="http://www.tengfun.com/skin/tfy/img/icon8.png" />市中心 
+          </div> 
+         </div> 
+        </div> </a> </li> 
+      <li class="house-item tfy-item"> <a target="_blank" href="house/447099.html"> 
+        <div class="tfy-img"> 
+         <img src="http://www.tengfun.com/house/attachment/information/201903/pre_1551861047t27px.jpg" /> 
+        </div> 
+        <div class="tfy-tit"> 
+         <div class="mt"> 
+          <div class="fl nowrap">
+            急售城建金河湾住房 
+           <img src="http://www.tengfun.com/skin/tfy/img/img21.png" /> 
+          </div> 
+          <div class="fr"> 
+           <span>1500元/月</span> 
+          </div> 
+         </div> 
+         <div class="mb"> 
+          <div class="fl"> 
+           <span>3室1厅2卫</span> 
+           <span>111.6㎡</span> 
+           <span>高层住宅</span> 
+          </div> 
+          <div class="fr"> 
+           <img src="http://www.tengfun.com/skin/tfy/img/icon8.png" />市中心 
+          </div> 
+         </div> 
+        </div> </a> </li> 
+      <li class="house-item tfy-item"> <a target="_blank" href="house/447099.html"> 
+        <div class="tfy-img"> 
+         <img src="http://www.tengfun.com/house/attachment/information/201903/pre_1551861047t27px.jpg" /> 
+        </div> 
+        <div class="tfy-tit"> 
+         <div class="mt"> 
+          <div class="fl nowrap">
+            急售城建金河湾住房 
+           <img src="http://www.tengfun.com/skin/tfy/img/img21.png" /> 
+          </div> 
+          <div class="fr"> 
+           <span>1500元/月</span> 
+          </div> 
+         </div> 
+         <div class="mb"> 
+          <div class="fl"> 
+           <span>3室1厅2卫</span> 
+           <span>111.6㎡</span> 
+           <span>高层住宅</span> 
+          </div> 
+          <div class="fr"> 
+           <img src="http://www.tengfun.com/skin/tfy/img/icon8.png" />市中心 
+          </div> 
+         </div> 
+        </div> </a> </li> 
+      <li class="house-item tfy-item"> <a target="_blank" href="house/447099.html"> 
+        <div class="tfy-img"> 
+         <img src="http://www.tengfun.com/house/attachment/information/201903/pre_1551861047t27px.jpg" /> 
+        </div> 
+        <div class="tfy-tit"> 
+         <div class="mt"> 
+          <div class="fl nowrap">
+            急售城建金河湾住房 
+           <img src="http://www.tengfun.com/skin/tfy/img/img21.png" /> 
+          </div> 
+          <div class="fr"> 
+           <span>1500元/月</span> 
+          </div> 
+         </div> 
+         <div class="mb"> 
+          <div class="fl"> 
+           <span>3室1厅2卫</span> 
+           <span>111.6㎡</span> 
+           <span>高层住宅</span> 
+          </div> 
+          <div class="fr"> 
+           <img src="http://www.tengfun.com/skin/tfy/img/icon8.png" />市中心 
+          </div> 
+         </div> 
+        </div> </a> </li> 
+     </ul> 
+     <div class="main-list"> 
+      <ul> 
+       <li> <span class="d1"> 市中心 </span> <span class="a1"> <a href="" target="_blank" class="blue biaoti" style="color:red; "> 寻找长期租户 </a> <span style="margin-left:5px;"> <a href="" target="_blank"> <img src="http://www.tengfun.com/house/member/template/images/tfding.gif" border="0" title="置顶信息" /> </a> </span> <span class="gray cat"> [个人] </span> </span> <span class="b1">3室2厅1卫</span> <span class="b1">115㎡</span> <span class="c1"><em>1500元/月</em></span> <span class="c1">高层住宅</span> <span class="t1">04-15</span> </li> 
+       <li> <span class="d1"> 市中心 </span> <span class="a1"> <a href="" target="_blank" class="blue biaoti" style="color:red; "> 寻找长期租户 </a> <span style="margin-left:5px;"> <a href="" target="_blank"> <img src="http://www.tengfun.com/house/member/template/images/tfding.gif" border="0" title="置顶信息" /> </a> </span> <span class="gray cat"> [个人] </span> </span> <span class="b1">3室2厅1卫</span> <span class="b1">115㎡</span> <span class="c1"><em>1500元/月</em></span> <span class="c1">高层住宅</span> <span class="t1">04-15</span> </li> 
+       <li> <span class="d1"> 市中心 </span> <span class="a1"> <a href="" target="_blank" class="blue biaoti" style="color:red; "> 寻找长期租户 </a> <span style="margin-left:5px;"> <a href="" target="_blank"> <img src="http://www.tengfun.com/house/member/template/images/tfding.gif" border="0" title="置顶信息" /> </a> </span> <span class="gray cat"> [个人] </span> </span> <span class="b1">3室2厅1卫</span> <span class="b1">115㎡</span> <span class="c1"><em>1500元/月</em></span> <span class="c1">高层住宅</span> <span class="t1">04-15</span> </li> 
+      </ul> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <!--租房结束--> 
+  <div class="split-bar"></div> 
+  <!--数据中心开始--> 
+  <div class="module-zf-recommend"> 
+   <div class="title-area"> 
+    <div class="title-text">
+      数据中心 
+    </div> 
+   </div> 
+   <div class="info-block"> 
+    <div class="ts-block"> 
+     <div class="card"> 
+      <div class="card-body"> 
+       <h6 class="card-title">套数趋势</h6> 
+       <div class="mb-4 text-muted"> 
+        <div class="es-chart" id="chart-ts__content"> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="rq-block"> 
+     <div class="card"> 
+      <div class="card-body"> 
+       <div class="d-flex align-items-center justify-content-between mb-3"> 
+        <p class="card-title mb-0">统计数据</p> 
+        <p class="mb-0 tx-13">本周</p> 
+       </div> 
+       <div class="d-flex flex-wrap mb-2"> 
+        <div class="mr-4"> 
+         <h4 class="mb-1 font-weight-medium">签约套数</h4> 
+         <p class="text-muted mb-0 tx-11">40套</p> 
+        </div> 
+        <div class="mr-4"> 
+         <h4 class="mb-1 font-weight-medium">签约面积</h4> 
+         <p class="text-muted mb-0 tx-11">0.44万㎡</p> 
+        </div> 
+       </div> 
+       <div id="tj-chart" class="es-chart"> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <!--数据中心结束--> 
+  <div class="split-bar"></div> 
+  <!--视频中心开始--> 
+  <div class="module-video-recommend"> 
+   <div class="title-area"> 
+    <div class="title-text">
+      视频中心 
+    </div> 
+   </div> 
+   <div class="info-block"> 
+    <div class="video-row"> 
+     <div class="v-row-2"> 
+      <div class="video-pack video-focus"> 
+       <div class="pack-cover"> 
+        <a href=""> <img src="https://liangcang-material.alicdn.com/prod/upload/a0d279a9346342b7ba65195c3cf65dc8.gif" /> </a> 
+       </div> 
+       <div class="pack-info-list"> 
+        <div class="pack-title"> 
+         <a>哈哈哈哈哈哈啊哈哈哈</a> 
+        </div> 
+        <div class="pack-subtitle">
+          你怎么不摇？？？ 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="v-row-1"> 
+      <div class="v-box"> 
+       <div class="video-pack"> 
+        <div class="pack-cover"> 
+         <a href=""> <img src="https://liangcang-material.alicdn.com/prod/upload/a0d279a9346342b7ba65195c3cf65dc8.gif" /> </a> 
+        </div> 
+        <div class="pack-info-list"> 
+         <div class="pack-short-title"> 
+          <a>哈哈哈哈哈哈啊哈哈哈</a> 
+         </div> 
+         <div class="pack-short-subtitle">
+           你怎么不摇？？？ 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="v-box"> 
+       <div class="video-pack"> 
+        <div class="pack-cover"> 
+         <a href=""> <img src="https://liangcang-material.alicdn.com/prod/upload/a0d279a9346342b7ba65195c3cf65dc8.gif" /> </a> 
+        </div> 
+        <div class="pack-info-list"> 
+         <div class="pack-short-title"> 
+          <a>哈哈哈哈哈哈啊哈哈哈</a> 
+         </div> 
+         <div class="pack-short-subtitle">
+           你怎么不摇？？？ 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="v-row-1"> 
+      <div class="v-box"> 
+       <div class="video-pack"> 
+        <div class="pack-cover"> 
+         <a href=""> <img src="https://liangcang-material.alicdn.com/prod/upload/a0d279a9346342b7ba65195c3cf65dc8.gif" /> </a> 
+        </div> 
+        <div class="pack-info-list"> 
+         <div class="pack-short-title"> 
+          <a>哈哈哈哈哈哈啊哈哈哈</a> 
+         </div> 
+         <div class="pack-short-subtitle">
+           你怎么不摇？？？ 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="v-box"> 
+       <div class="video-pack"> 
+        <div class="pack-cover"> 
+         <a href=""> <img src="https://liangcang-material.alicdn.com/prod/upload/a0d279a9346342b7ba65195c3cf65dc8.gif" /> </a> 
+        </div> 
+        <div class="pack-info-list"> 
+         <div class="pack-short-title"> 
+          <a>哈哈哈哈哈哈啊哈哈哈</a> 
+         </div> 
+         <div class="pack-short-subtitle">
+           你怎么不摇？？？ 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="v-row-1"> 
+      <div class="v-box"> 
+       <div class="video-pack"> 
+        <div class="pack-cover"> 
+         <a href=""> <img src="https://liangcang-material.alicdn.com/prod/upload/a0d279a9346342b7ba65195c3cf65dc8.gif" /> </a> 
+        </div> 
+        <div class="pack-info-list"> 
+         <div class="pack-short-title"> 
+          <a>哈哈哈哈哈哈啊哈哈哈</a> 
+         </div> 
+         <div class="pack-short-subtitle">
+           你怎么不摇？？？ 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="v-box"> 
+       <div class="video-pack"> 
+        <div class="pack-cover"> 
+         <a href=""> <img src="https://liangcang-material.alicdn.com/prod/upload/a0d279a9346342b7ba65195c3cf65dc8.gif" /> </a> 
+        </div> 
+        <div class="pack-info-list"> 
+         <div class="pack-short-title"> 
+          <a>哈哈哈哈哈哈啊哈哈哈</a> 
+         </div> 
+         <div class="pack-short-subtitle">
+           你怎么不摇？？？ 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="v-row-1"> 
+      <div class="v-box"> 
+       <div class="video-pack"> 
+        <div class="pack-cover"> 
+         <a href=""> <img src="https://liangcang-material.alicdn.com/prod/upload/a0d279a9346342b7ba65195c3cf65dc8.gif" /> </a> 
+        </div> 
+        <div class="pack-info-list"> 
+         <div class="pack-short-title"> 
+          <a>哈哈哈哈哈哈啊哈哈哈</a> 
+         </div> 
+         <div class="pack-short-subtitle">
+           你怎么不摇？？？ 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="v-box"> 
+       <div class="video-pack"> 
+        <div class="pack-cover"> 
+         <a href=""> <img src="https://liangcang-material.alicdn.com/prod/upload/a0d279a9346342b7ba65195c3cf65dc8.gif" /> </a> 
+        </div> 
+        <div class="pack-info-list"> 
+         <div class="pack-short-title"> 
+          <a>哈哈哈哈哈哈啊哈哈哈</a> 
+         </div> 
+         <div class="pack-short-subtitle">
+           你怎么不摇？？？ 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <!--视频中心结束--> 
+  <div class="split-bar"></div> 
+  <div class="footer-wrapper"> 
+   <!--排行榜开始--> 
+   <div class="module-rank"> 
+    <div class="title"> 
+     <span class="line"></span> 
+     <span class="text">楼盘排行榜</span> 
+     <span class="line"></span> 
+    </div> 
+    <div class="rank-block"> 
+     <div class="title">
+       楼盘访问排行 
+     </div> 
+     <div class="list"> 
+      <ul> 
+       <li> 
+        <div> 
+         <span class="num top3">1</span> 
+         <span class="name ellipsis w110"><a href="/ltwtc/index.html">联泰&middot;万泰城</a></span> 
+         <span class="area ellipsis w100">八里湖新区</span> 
+         <span class="price ellipsis">均价8400元/㎡</span> 
+        </div> </li> 
+       <li> 
+        <div> 
+         <span class="num top3">2</span> 
+         <span class="name ellipsis w110"><a href="/ltwtc/index.html">联泰&middot;万泰城</a></span> 
+         <span class="area ellipsis w100">八里湖新区</span> 
+         <span class="price ellipsis">均价8400元/㎡</span> 
+        </div> </li> 
+       <li> 
+        <div> 
+         <span class="num top3">3</span> 
+         <span class="name ellipsis w110"><a href="/ltwtc/index.html">联泰&middot;万泰城</a></span> 
+         <span class="area ellipsis w100">八里湖新区</span> 
+         <span class="price ellipsis">均价8400元/㎡</span> 
+        </div> </li> 
+       <li> 
+        <div> 
+         <span class="num top3">4</span> 
+         <span class="name ellipsis w110"><a href="/ltwtc/index.html">联泰&middot;万泰城</a></span> 
+         <span class="area ellipsis w100">八里湖新区</span> 
+         <span class="price ellipsis">均价8400元/㎡</span> 
+        </div> </li> 
+       <li> 
+        <div> 
+         <span class="num top3">5</span> 
+         <span class="name ellipsis w110"><a href="/ltwtc/index.html">联泰&middot;万泰城</a></span> 
+         <span class="area ellipsis w100">八里湖新区</span> 
+         <span class="price ellipsis">均价8400元/㎡</span> 
+        </div> </li> 
+       <li> 
+        <div> 
+         <span class="num top3">6</span> 
+         <span class="name ellipsis w110"><a href="/ltwtc/index.html">联泰&middot;万泰城</a></span> 
+         <span class="area ellipsis w100">八里湖新区</span> 
+         <span class="price ellipsis">均价8400元/㎡</span> 
+        </div> </li> 
+       <li> 
+        <div> 
+         <span class="num top3">7</span> 
+         <span class="name ellipsis w110"><a href="/ltwtc/index.html">联泰&middot;万泰城</a></span> 
+         <span class="area ellipsis w100">八里湖新区</span> 
+         <span class="price ellipsis">均价8400元/㎡</span> 
+        </div> </li> 
+       <li> 
+        <div> 
+         <span class="num top3">8</span> 
+         <span class="name ellipsis w110"><a href="/ltwtc/index.html">联泰&middot;万泰城</a></span> 
+         <span class="area ellipsis w100">八里湖新区</span> 
+         <span class="price ellipsis">均价8400元/㎡</span> 
+        </div> </li> 
+      </ul> 
+     </div> 
+    </div> 
+    <div class="rank-block has-margin"> 
+     <div class="title">
+       楼盘评论排行 
+     </div> 
+     <div class="list"> 
+      <ul> 
+       <li> 
+        <div> 
+         <span class="num top3">1</span> 
+         <span class="name ellipsis w110"><a href="/ltwtc/index.html">联泰&middot;万泰城</a></span> 
+         <span class="area ellipsis w100">八里湖新区</span> 
+         <span class="cm_count ellipsis"><span style="color: red">123</span>条</span> 
+        </div> </li> 
+      </ul> 
+     </div> 
+    </div> 
+    <div class="rank-block"> 
+     <div class="title">
+       楼盘团购排行 
+     </div> 
+     <div class="list"> 
+      <ul> 
+       <li>
+        <div> 
+         <span class="num top3">1</span> 
+         <span class="name ellipsis w130"><a href="/blblfc/togo.html" target="_blank" title="保利&middot;八里翡翠">保利&middot;八里翡翠</a></span> 
+         <span class="area ellipsis w110"><a href="/blblfc/togo.html#togo" target="_blank" class="red">参加</a></span> 
+         <span class="cm_count ellipsis"><span style="color: red">68</span>人</span> 
+        </div> </li> 
+      </ul> 
+     </div> 
+    </div> 
+   </div> 
+   <!--排行榜结束-->
+   <div class="split-bar"></div> 
+   <!--底部链接开始-->
+   <div class="footer">
+      <div class="firend_link jiujiang">
+          <h2 class="f14">九江楼盘</h2>
+          <ul>
+              <li><a href="http://www.zzjjw.cn/business/buildingList.action?area=1">浔阳区楼盘</a></li>
+              <li><a href="http://www.zzjjw.cn/business/buildingList.action?area=2">开发区楼盘</a></li>
+              <li><a href="http://www.zzjjw.cn/business/buildingList.action?area=3">濂溪区楼盘</a></li>
+              <li><a href="http://www.zzjjw.cn/business/buildingList.action?area=17">八里湖新区楼盘</a></li>
+              <li><a href="http://www.zzjjw.cn/business/buildingList.action?area=8">柴桑区楼盘</a></li>
+              <li><a href="http://www.zzjjw.cn/business/buildingList.action?area=4">德安县楼盘</a></li>
+              <li><a href="http://www.zzjjw.cn/business/buildingList.action?area=5">都昌县楼盘</a></li>
+              <li><a href="http://www.zzjjw.cn/business/buildingList.action?area=6">共青城楼盘</a></li>
+              <li><a href="http://www.zzjjw.cn/business/buildingList.action?area=7">湖口县楼盘</a></li>
+              <li><a href="http://www.zzjjw.cn/business/buildingList.action?area=10">彭泽县楼盘</a></li>
+              <li><a href="http://www.zzjjw.cn/business/buildingList.action?area=11">瑞昌市楼盘</a></li>
+          </ul>
+          <ul>
+              <li><a href="http://www.zzjjw.cn/business/buildingList.action?area=12">武宁县楼盘</a></li>
+              <li><a href="http://www.zzjjw.cn/business/buildingList.action?area=13">庐山市楼盘</a></li>
+              <li><a href="http://www.zzjjw.cn/business/buildingList.action?area=14">修水县楼盘</a></li>
+              <li><a href="http://www.zzjjw.cn/business/buildingList.action?area=15">永修县楼盘</a></li>
+          </ul>
+      </div>
+      <div class="firend_link">
+          <span class="tips">欢迎各同类网站(要求：百度权重&gt;=3)交换友情链接，电话：0792-8179222；QQ:1304764829</span>
+          <h2 class="f14">友情链接</h2>
+          <ul>
+              <li><a href="http://www.jianfc.com/">吉安房产网</a></li>
+              <li><a href="http://www.sqfcw.com/">宿迁房产网</a></li>
+              <li><a href="http://www.ycfcw.cn/">盐城房产网</a></li>
+              <li><a href="http://esf.zzjjw.cn/">九江二手房</a></li>
+              <li><a href="http://www.0575ls.cn/">绍兴楼市网</a></li>
+              <li><a href="http://house.168hs.com/">黄山房产网</a></li>
+              <li><a href="http://zhuzhou.loupan.com/">株洲房地产</a></li>
+              <li><a href="http://www.0712fang.com/">孝感房产网</a></li>
+              <li><a href="http://www.aofenglu.com/">宣城房产网</a></li>
+              <li><a href="http://www.0539fc.com/">临沂0539房产网</a></li>
+              <li><a href="http://www.0572home.com/">德清房产网</a></li>
+              <li><a href="http://house.zjk169.net/">张家口房价</a></li>
+          </ul>
+          <ul>
+              <li><a href="http://www.fc0633.com/">日照房产网</a></li>
+              <li><a href="http://www.zyxuan.org/">中式装修</a></li>
+              <li><a href="http://www.0722fc.com/">随州房产网</a></li>
+              <li><a href="http://www.e0838.com/">德阳房产网</a></li>
+              <li><a href="http://house.bdinfo.net/">保定房产网</a></li>
+              <li><a href="http://www.0731fdc.com/">长沙房产网</a></li>
+              <li><a href="http://www.hainanfz.com/">海口房产网</a></li>
+              <li><a href="http://www.10fang.com/">十房网</a></li>
+              <li><a href="http://www.373f.com/">新乡房产网</a></li>
+              <li><a href="http://www.zcfcw.cn/">邹城房产网</a></li>
+              <li><a href="https://www.0851fcw.com/">贵阳房产网</a></li>
+              <li><a href="http://www.shuyfdc.com/">沭阳房产在线</a></li>
+              <li><a href="https://www.xingtaishi.com/">邢台房产网</a></li>
+          </ul>
+          <ul>
+              <li><a href="http://www.0537yz.com/">兖州房产网</a></li>
+              <li><a href="http://www.hezefc.com ">菏泽房产网</a></li>
+              <li><a href="http://www.xafc.com/">合肥房产网</a></li>
+              <li><a href="http://www.qjfdcw.com/">全椒房产网</a></li>
+              <li><a href="http://www.01fy.cn/index.htm">第一时间房源网</a></li>
+              <li><a href="http://www.grfy.net/index.htm">个人房源网</a></li>
+              <li><a href="http://xt.fangyuan365.com">湘潭房产网</a></li>
+          </ul>
+      </div>
+      <div class="bottom">
+          <ul class="about">
+              <li>
+                  <a href="/html/about_new.html">关于我们</a> | 
+                  <a href="/html/about_new.html?p=zxns">招贤纳士</a> | 
+                  <a href="/html/about_new.html?p=ggfw">广告服务</a> | 
+                  <a href="/html/about_new.html?p=cjwt">常见问题</a>
+              </li>
+              <li>
+                  (最<a href="http://www.zzjjw.cn/">九江的房地产网</a>络媒体)客户服务热线：8179333&nbsp;&nbsp;广告投放：8179222&nbsp;&nbsp;客服QQ：1304764829&nbsp;&nbsp;运营：九江公众信息产业有限公司
+              </li>
+              <li>
+                  Copyright ? 2008-2018 zzjjw.cn 互联网经营许可证：<a href="http://www.zzjjw.cn/news/show-28713.html">赣B2-20120044号</a>&nbsp;ICP备案：赣ICP备11002837号-1
+              </li>
+              <li>
+                  本站常年法律顾问：江西柴桑律师事务所 <strong>汤雷</strong>律师(15979997816)
+              </li>
+          </ul>
+      </div>
+      <div class="wangan">
+          <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=36040202000103">
+              <img src="http://www.beian.gov.cn/file/ghs.png">
+              <p>赣公网安备 36040202000103号</p>
+          </a>
+          <div>
+          </div>
+          <div class="quick_bar" style="display: block;">
+              <div class="go_top go_wx">
+                  <div class="quick-bar-box wx-box">
+                      <img class="img" src="../images/2018/gzh_code.jpg">
+                  </div>
+              </div>
+              <div class="go_top go_xcx">
+                  <div class="quick-bar-box xcx-box">
+                      <img class="img" src="../images/2018/xcx_code.jpg">
+                  </div>
+              </div>
+              <a href="news/buying_process.action">
+                  <div class="go_top go_gflc"></div>
+              </a>
+              <div id="go_top" class="go_top"></div>
+          </div>
+      </div>
+  </div>
+   <!--底部链接结束-->
+   <!--侧边栏开始-->
+   <div class="module-right-toolbar show">
+     <ul class="rt-ctn">
+        <li class="rt-item wx" node-type="wx"> <a href="https://about.focus.cn/pinfangdi" target="_blank"> <div class="icon-text"> <em class="icon2018"></em> <span>小程序</span> </div> </a> <div class="right-toolbar__wxapp-hover" style="display: none;">
+            <img class="bg" src="//t.focus-res.cn/front-end/image/wxapp-bg.png">
+            <div class="hover-content">
+                
+                <img src="https://t.focus-img.cn/wx/acode/eaed-7c11-0b29-4c72-9e75-e9a0-dbf1-8333.jpg">
+                
+            </div>
+            <div class="hover-right">
+                <p>购房神器-拼房帝</p>
+                <p class="small">微信扫一扫<br>不用下载就能用</p>
+            </div>
+        </div>
+        </li>
+        <div class="split-bar"></div>
+        <li class="rt-item wx" node-type="wx"> <a href="https://about.focus.cn/pinfangdi" target="_blank"> <div class="icon-text"> <em class="icon2018"></em> <span>公众号</span> </div> </a> <div class="right-toolbar__wxapp-hover" style="display: none;">
+            <img class="bg" src="//t.focus-res.cn/front-end/image/wxapp-bg.png">
+            <div class="hover-content">
+                
+                <img src="https://t.focus-img.cn/wx/acode/eaed-7c11-0b29-4c72-9e75-e9a0-dbf1-8333.jpg">
+                
+            </div>
+            <div class="hover-right">
+                <p>购房神器-拼房帝</p>
+                <p class="small">微信扫一扫<br>不用下载就能用</p>
+            </div>
+        </div>
+        </li>
+        <div class="split-bar"></div>
+        <li class="rt-item wx" node-type="wx"> <a href="https://about.focus.cn/pinfangdi" target="_blank"> <div class="icon-text"> <em class="icon2018"></em> <span>流程</span> </div> </a> <div class="right-toolbar__wxapp-hover" style="display: none;">
+            <img class="bg" src="//t.focus-res.cn/front-end/image/wxapp-bg.png">
+            <div class="hover-content">
+                
+                <img src="https://t.focus-img.cn/wx/acode/eaed-7c11-0b29-4c72-9e75-e9a0-dbf1-8333.jpg">
+                
+            </div>
+            <div class="hover-right">
+                <p>购房神器-拼房帝</p>
+                <p class="small">微信扫一扫<br>不用下载就能用</p>
+            </div>
+        </div>
+        </li>
+        <div class="split-bar"></div>
+        <li class="rt-item gotop"> <div class="icon-text"> <em class="icon"></em> <span>置顶</span> </div> <div class="hover-tips"> <span class="text">返回顶部</span> </div> </li>
+     </ul>
+   </div>
+   <!--侧边栏结束-->
+  </div> 
+  <script src="scripts/index.js?v=0509" type="text/javascript">
+    </script>  
+ </body>
+</html>
